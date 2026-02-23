@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 const Wellness = () => {
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-white text-black'>
       <Header />
       <main>
         <WellnessSection />

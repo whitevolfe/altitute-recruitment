@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -18,15 +18,17 @@ const navLinks = [
       { label: 'Leadership', href: '/about/leadership' },
     ],
   },
-  { label: 'Global', href: '/global' },
+  // { label: 'Global', href: '/global' },
   { label: 'Wellness', href: '/wellness' },
   { label: 'Talent', href: '/talent' },
   { label: 'Contact', href: '/contact' },
 ];
 
 const Header = () => {
+  const location = useLocation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const isWellnessPage = location.pathname === '/wellness';
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -38,14 +40,16 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? 'bg-background/95 backdrop-blur-md border-b border-border'
+          ? isWellnessPage
+            ? 'bg-white/95 backdrop-blur-md border-b border-black'
+            : 'bg-background/95 backdrop-blur-md border-b border-border'
           : 'bg-transparent'
       }`}
     >
       <div className='max-w-7xl mx-auto px-6 py-5 flex items-center justify-between'>
         <Link
           to='/'
-          className='font-display text-3xl tracking-wider text-foreground'
+          className={`font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : 'text-foreground'}`}
         >
           ALTITUDE GROUP
         </Link>
@@ -55,7 +59,9 @@ const Header = () => {
             if (link.dropdown) {
               return (
                 <DropdownMenu key={link.href}>
-                  <DropdownMenuTrigger className='flex items-center gap-1 text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-300 font-body font-medium'>
+                  <DropdownMenuTrigger
+                    className={`flex items-center gap-1 text-xs tracking-[0.2em] uppercase ${isWellnessPage ? 'text-black hover:text-black' : 'text-muted-foreground hover:text-foreground'} transition-colors duration-300 font-body font-medium`}
+                  >
                     {link.label}
                     <ChevronDown size={12} />
                   </DropdownMenuTrigger>
@@ -75,7 +81,7 @@ const Header = () => {
               <Link
                 key={link.href}
                 to={link.href}
-                className='text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-300 font-body font-medium'
+                className={`text-xs tracking-[0.2em] uppercase ${isWellnessPage ? 'text-black hover:text-black' : 'text-muted-foreground hover:text-foreground'} transition-colors duration-300 font-body font-medium`}
               >
                 {link.label}
               </Link>
@@ -84,7 +90,7 @@ const Header = () => {
         </nav>
 
         <button
-          className='md:hidden text-foreground'
+          className={`md:hidden ${isWellnessPage ? 'text-black' : 'text-foreground'}`}
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -97,7 +103,7 @@ const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className='md:hidden bg-background/98 backdrop-blur-md border-b border-border overflow-hidden'
+            className={`md:hidden ${isWellnessPage ? 'bg-white/98 backdrop-blur-md border-b border-black' : 'bg-background/98 backdrop-blur-md border-b border-border'} overflow-hidden`}
           >
             <div className='px-6 pb-6 pt-2'>
               {navLinks.map((link) => (
@@ -105,7 +111,7 @@ const Header = () => {
                   <Link
                     to={link.href}
                     onClick={() => setMobileOpen(false)}
-                    className='block py-3 text-sm tracking-[0.15em] uppercase text-muted-foreground hover:text-foreground transition-colors font-body'
+                    className={`block py-3 text-sm tracking-[0.15em] uppercase ${isWellnessPage ? 'text-black hover:text-black' : 'text-muted-foreground hover:text-foreground'} transition-colors font-body`}
                   >
                     {link.label}
                   </Link>
@@ -116,7 +122,7 @@ const Header = () => {
                           key={item.href}
                           to={item.href}
                           onClick={() => setMobileOpen(false)}
-                          className='block py-2 text-sm text-muted-foreground hover:text-foreground transition-colors font-body'
+                          className={`block py-2 text-sm ${isWellnessPage ? 'text-black hover:text-black' : 'text-muted-foreground hover:text-foreground'} transition-colors font-body`}
                         >
                           {item.label}
                         </Link>
