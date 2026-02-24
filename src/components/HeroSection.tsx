@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import ConsultationModal from './ConsultationModal';
 import heroVideo from '@/assets/hero-video1.mp4';
 
 const HeroSection = () => {
+  const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false);
+
   return (
     <section className='relative h-screen flex items-center justify-center overflow-hidden'>
       <video
@@ -45,8 +49,12 @@ const HeroSection = () => {
           <Button variant='hero' size='lg' asChild>
             <a href='#careers'>View Open Roles</a>
           </Button>
-          <Button variant='hero-outline' size='lg' asChild>
-            <a href='#contact'>Partner With Us</a>
+          <Button
+            variant='hero-outline'
+            size='lg'
+            onClick={() => setIsConsultationModalOpen(true)}
+          >
+            Partner With Us
           </Button>
         </motion.div>
       </div>
@@ -59,6 +67,11 @@ const HeroSection = () => {
       >
         <div className='w-px h-12 bg-foreground/30 animate-pulse' />
       </motion.div>
+
+      <ConsultationModal
+        isOpen={isConsultationModalOpen}
+        onClose={() => setIsConsultationModalOpen(false)}
+      />
     </section>
   );
 };
