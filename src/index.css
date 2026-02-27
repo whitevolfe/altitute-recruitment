@@ -81,6 +81,10 @@
     text-wrap: balance;
   }
 
+  .bg-black-gradient {
+    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+  }
+
   @keyframes marquee-left {
     0% {
       transform: translateX(0);

@@ -54,7 +54,7 @@ const Header = () => {
           <img
             src='/brandlogos/1.svg'
             alt='Altitude Group Logo'
-            className='h-40 w-40'
+            className='h-20 w-25'
           />
         </Link>
 
