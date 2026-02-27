@@ -49,9 +49,13 @@ const Header = () => {
       <div className='max-w-7xl mx-auto px-6 py-5 flex items-center justify-between'>
         <Link
           to='/'
-          className={`font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : 'text-foreground'}`}
+          className={`flex items-center gap-3 font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : 'text-foreground'}`}
         >
-          ALTITUDE GROUP
+          <img
+            src='/brandlogos/1.svg'
+            alt='Altitude Group Logo'
+            className='h-40 w-40'
+          />
         </Link>
 
         <nav className='hidden md:flex items-center gap-8'>

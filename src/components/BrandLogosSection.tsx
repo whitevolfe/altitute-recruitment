@@ -1,14 +1,18 @@
 const BrandLogosSection = () => {
   // Path starts from /public automatically
-  const logos1 = Array.from(
-    { length: 15 },
-    (_, i) => `/brandlogos/brandlogoimg${i + 1}.png`,
-  );
+  const logos1 = [
+    '/brandlogos/1.svg',
+    '/brandlogos/2.svg',
+    '/brandlogos/3.svg',
+    '/brandlogos/4.svg',
+  ];
 
-  const logos2 = Array.from(
-    { length: 15 },
-    (_, i) => `/brandlogos/brandlogoimg${i + 16}.png`,
-  );
+  const logos2 = [
+    '/brandlogos/8.svg',
+    '/brandlogos/9.svg',
+    '/brandlogos/10.svg',
+    '/brandlogos/11.svg',
+  ];
 
   return (
     <section className='bg-black py-16'>
@@ -21,7 +25,7 @@ const BrandLogosSection = () => {
                 <img
                   src={logo}
                   alt={`Brand Logo ${index + 1}`}
-                  className='h-16 w-auto'
+                  className='h-16 w-60'
                 />
               </div>
             ))}
@@ -30,7 +34,7 @@ const BrandLogosSection = () => {
                 <img
                   src={logo}
                   alt={`Brand Logo ${index + 1}`}
-                  className='h-16 w-auto'
+                  className='h-16 w-60'
                 />
               </div>
             ))}
@@ -44,8 +48,8 @@ const BrandLogosSection = () => {
               <div key={index} className='flex-shrink-0 mx-4'>
                 <img
                   src={logo}
-                  alt={`Brand Logo ${index + 16}`}
-                  className='h-16 w-auto'
+                  alt={`Brand Logo ${index + 6}`}
+                  className='h-16 w-60'
                 />
               </div>
             ))}
@@ -53,8 +57,8 @@ const BrandLogosSection = () => {
               <div key={`dup-${index}`} className='flex-shrink-0 mx-4'>
                 <img
                   src={logo}
-                  alt={`Brand Logo ${index + 16}`}
-                  className='h-16 w-auto'
+                  alt={`Brand Logo ${index + 6}`}
+                  className='h-16 w-60'
                 />
               </div>
             ))}
