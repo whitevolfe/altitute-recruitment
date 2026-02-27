@@ -12,6 +12,8 @@ const founders = [
       'In 2025, he co-founded Altitude Group, transitioning from corporate leadership into entrepreneurship with a clear focus on building institutions grounded in structure, accountability and long-term sustainability. His leadership philosophy is rooted in discipline, strategic foresight and frameworks designed to endure.',
     ],
     initials: 'C',
+    image: '/brandlogos/Charitha.jpeg',
+    linkedinUrl: 'https://www.linkedin.com/in/charitha-malalasekera-2386811b7/',
   },
   {
     name: 'Natlie',
@@ -24,6 +26,8 @@ const founders = [
       'Her mandate is simple: lead with conviction, build with structure and create lasting impact.',
     ],
     initials: 'N',
+    image: '/brandlogos/Natlie.jpg.jpeg',
+    linkedinUrl: 'https://www.linkedin.com/in/natlie-jackson/',
   },
 ];
 
@@ -41,11 +45,19 @@ const LeadershipSection = () => {
           {founders.map((founder, i) => (
             <ScrollReveal key={founder.name} delay={0.1 + i * 0.1}>
               <div className='bg-card border border-border p-8 md:p-10 group hover:border-foreground/20 transition-colors duration-500'>
-                <div className='w-20 h-20 rounded-full bg-secondary flex items-center justify-center mb-6'>
-                  <span className='font-display text-3xl text-foreground'>
-                    {founder.initials}
-                  </span>
-                </div>
+                {founder.image ? (
+                  <img
+                    src={founder.image}
+                    alt={founder.name}
+                    className='w-40 h-40 rounded-full object-cover mb-6'
+                  />
+                ) : (
+                  <div className='w-20 h-20 rounded-full bg-secondary flex items-center justify-center mb-6'>
+                    <span className='font-display text-3xl text-foreground'>
+                      {founder.initials}
+                    </span>
+                  </div>
+                )}
                 <h3 className='font-display text-2xl tracking-wide text-foreground mb-1'>
                   {founder.name}
                 </h3>
@@ -67,7 +79,7 @@ const LeadershipSection = () => {
                   </p>
                 )}
                 <a
-                  href='#'
+                  href={founder.linkedinUrl}
                   className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors'
                 >
                   <Linkedin size={18} />
