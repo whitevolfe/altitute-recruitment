@@ -34,8 +34,8 @@ const ContactSection = () => {
   };
 
   return (
-    <section id='contact' className='section-padding bg-card'>
-      <div className='max-w-7xl mx-auto'>
+    <section id='contact' className='bg-background section-padding bg-card '>
+      <div className='max-w-7xl mx-auto '>
         <ScrollReveal>
           <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
             Get In Touch
@@ -172,7 +172,7 @@ const ContactSection = () => {
                 </div>
               </div>
 
-              <div className='border-t border-border pt-8'>
+              {/* <div className='border-t border-border pt-8'>
                 <h3 className='font-display text-xl tracking-wide text-foreground mb-4'>
                   Our Reach
                 </h3>
@@ -196,7 +196,7 @@ const ContactSection = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </ScrollReveal>
         </div>

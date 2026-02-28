@@ -4,11 +4,12 @@ import { ArrowRight, Phone } from 'lucide-react';
 
 const CallToActionSection = () => {
   return (
-    <section className='py-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden'>
-      {/* Animated background effects */}
-      <div className='absolute inset-0 bg-gradient-to-r from-blue-600/10 via-transparent to-purple-600/10 animate-pulse'></div>
-      <div className='absolute top-0 left-1/4 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl animate-pulse delay-1000'></div>
-      <div className='absolute bottom-0 right-1/4 w-80 h-80 bg-purple-500/5 rounded-full blur-3xl animate-pulse delay-2000'></div>
+    <section className='py-24 bg-black relative overflow-hidden'>
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
 
       <div className='relative z-10 max-w-4xl mx-auto px-6 text-center'>
         <ScrollReveal>

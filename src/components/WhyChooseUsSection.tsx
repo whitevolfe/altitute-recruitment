@@ -36,17 +36,20 @@ const trustPoints = [
 
 const WhyChooseUsSection = () => {
   return (
-    <section className='section-padding bg-white relative overflow-hidden'>
-      {/* Subtle background effect */}
-      <div className='absolute inset-0 bg-gradient-to-br from-blue-50/20 via-transparent to-gray-50/20'></div>
+    <section className='section-padding bg-black relative overflow-hidden'>
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         <ScrollReveal>
           <div className='text-center mb-16'>
-            <h2 className='text-4xl md:text-6xl font-display tracking-wide text-gray-900 mb-6'>
+            <h2 className='text-4xl md:text-6xl font-display tracking-wide text-white mb-6'>
               Why Choose Us
             </h2>
-            <p className='text-xl text-gray-600 font-body max-w-4xl mx-auto leading-relaxed'>
+            <p className='text-xl text-white/80 font-body max-w-4xl mx-auto leading-relaxed'>
               Trusted by global employers and professionals for ethical,
               transparent, and efficient recruitment solutions.
             </p>
@@ -58,18 +61,18 @@ const WhyChooseUsSection = () => {
             const Icon = point.icon;
             return (
               <ScrollReveal key={point.title} delay={index * 0.1}>
-                <div className='group bg-white border border-gray-200 rounded-xl p-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full'>
+                <div className='group bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-8 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full'>
                   <div className='flex flex-col items-center text-center h-full'>
-                    <div className='mb-6 p-4 bg-blue-50 rounded-full group-hover:bg-blue-100 transition-colors duration-300'>
+                    <div className='mb-6 p-4 bg-blue-50/20 rounded-full group-hover:bg-blue-100/30 transition-colors duration-300'>
                       <Icon
                         size={32}
-                        className='text-blue-600 group-hover:scale-110 transition-transform duration-300'
+                        className='text-blue-400 group-hover:scale-110 transition-transform duration-300'
                       />
                     </div>
-                    <h3 className='text-xl font-display font-semibold text-gray-900 mb-4 group-hover:text-blue-900 transition-colors'>
+                    <h3 className='text-xl font-display font-semibold text-white mb-4 group-hover:text-blue-200 transition-colors'>
                       {point.title}
                     </h3>
-                    <p className='text-gray-600 font-body leading-relaxed flex-1'>
+                    <p className='text-white/80 font-body leading-relaxed flex-1'>
                       {point.description}
                     </p>
                   </div>

@@ -34,17 +34,20 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section className='section-padding bg-white relative overflow-hidden'>
-      {/* Subtle background gradient */}
-      <div className='absolute inset-0 bg-gradient-to-br from-gray-50/50 via-transparent to-blue-50/30'></div>
+    <section className='section-padding bg-black relative overflow-hidden'>
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         <ScrollReveal>
           <div className='text-center mb-16'>
-            <h2 className='text-4xl md:text-6xl font-display tracking-wide text-gray-900 mb-6'>
+            <h2 className='text-4xl md:text-6xl font-display tracking-wide text-white mb-6'>
               How It Works
             </h2>
-            <p className='text-xl text-gray-600 font-body max-w-3xl mx-auto leading-relaxed'>
+            <p className='text-xl text-white/80 font-body max-w-3xl mx-auto leading-relaxed'>
               A streamlined and transparent recruitment process designed for
               efficiency and compliance.
             </p>
@@ -75,11 +78,11 @@ const HowItWorksSection = () => {
                     </div>
 
                     {/* Content */}
-                    <div className='bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-gray-100'>
-                      <h3 className='text-xl font-display font-semibold text-gray-900 mb-3 text-center'>
+                    <div className='bg-white/5 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-white/10'>
+                      <h3 className='text-xl font-display font-semibold text-white mb-3 text-center'>
                         {step.title}
                       </h3>
-                      <p className='text-gray-600 font-body leading-relaxed text-center'>
+                      <p className='text-white/80 font-body leading-relaxed text-center'>
                         {step.description}
                       </p>
                     </div>
@@ -110,11 +113,11 @@ const HowItWorksSection = () => {
                   </div>
 
                   {/* Content */}
-                  <div className='flex-1 bg-white rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100'>
-                    <h3 className='text-lg font-display font-semibold text-gray-900 mb-2'>
+                  <div className='flex-1 bg-white/5 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-white/10'>
+                    <h3 className='text-lg font-display font-semibold text-white mb-2'>
                       {step.title}
                     </h3>
-                    <p className='text-gray-600 font-body leading-relaxed'>
+                    <p className='text-white/80 font-body leading-relaxed'>
                       {step.description}
                     </p>
                   </div>
