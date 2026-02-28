@@ -30,7 +30,7 @@ const JobsSection = () => {
           </p>
           <br />
 
-          <h2 className='text-4xl md:text-6xl font-display tracking-wide text-foreground mb-16'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
             Open Vacancies
           </h2>
         </ScrollReveal>

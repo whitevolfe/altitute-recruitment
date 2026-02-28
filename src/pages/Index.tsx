@@ -7,6 +7,7 @@ import GlobalSection from '@/components/GlobalSection';
 import WellnessSection from '@/components/WellnessSection';
 import JobsSection from '@/components/JobsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import TradingRevolutionSection from '@/components/TradingRevolutionSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -21,8 +22,9 @@ const Index = () => {
         <GlobalCommunitySection />
         {/* <GlobalSection /> */}
         {/* <WellnessSection /> */}
-        <JobsSection />
+        {/* <JobsSection /> */}
         <TestimonialsSection />
+        <TradingRevolutionSection />
         {/* <ContactSection /> */}
       </main>
       <Footer />

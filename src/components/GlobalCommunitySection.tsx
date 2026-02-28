@@ -1,18 +1,18 @@
 import { motion } from 'framer-motion';
 
 const countries = [
-  { name: 'United States', flag: '🇺🇸', rotate: 2 },
-  { name: 'United Kingdom', flag: '🇬🇧', rotate: -3 },
-  { name: 'Germany', flag: '🇩🇪', rotate: 1 },
-  { name: 'France', flag: '🇫🇷', rotate: -2 },
-  { name: 'Japan', flag: '🇯🇵', rotate: 3 },
-  { name: 'Australia', flag: '🇦🇺', rotate: -1 },
-  { name: 'Canada', flag: '🇨🇦', rotate: 2 },
-  { name: 'Singapore', flag: '🇸🇬', rotate: -3 },
-  { name: 'Netherlands', flag: '🇳🇱', rotate: 1 },
-  { name: 'Switzerland', flag: '🇨🇭', rotate: -2 },
-  { name: 'Sweden', flag: '🇸🇪', rotate: 3 },
-  { name: 'Norway', flag: '🇳🇴', rotate: -1 },
+  { name: 'Software Engineering', rotate: 2 },
+  { name: 'Finance', rotate: -3 },
+  { name: 'Legal', rotate: 1 },
+  { name: 'Advertising', rotate: -2 },
+  { name: 'Business Development', rotate: 3 },
+  { name: 'Human Resources', rotate: -1 },
+  // { name: 'Canada', flag: '🇨🇦', rotate: 2 },
+  // { name: 'Singapore', flag: '🇸🇬', rotate: -3 },
+  // { name: 'Netherlands', flag: '🇳🇱', rotate: 1 },
+  // { name: 'Switzerland', flag: '🇨🇭', rotate: -2 },
+  // { name: 'Sweden', flag: '🇸🇪', rotate: 3 },
+  // { name: 'Norway', flag: '🇳🇴', rotate: -1 },
 ];
 
 const GlobalCommunitySection = () => {
@@ -58,8 +58,8 @@ const GlobalCommunitySection = () => {
           transition={{ duration: 0.6 }}
           className='text-center mb-12'
         >
-          <h2 className='text-4xl md:text-6xl font-display tracking-wide text-foreground mb-4'>
-            Building a worldwide community of traders
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-4'>
+            Careers
           </h2>
         </motion.div>
 

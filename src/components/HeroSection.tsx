@@ -21,14 +21,14 @@ const HeroSection = () => {
       <div className='absolute inset-0 bg-background/40' />
 
       <div className='relative z-10 text-center max-w-5xl mx-auto px-6'>
-        {/* <motion.h1
+        <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
           className='text-5xl md:text-7xl lg:text-8xl font-display leading-[0.95] text-foreground mb-6 tracking-wide'
         >
-          Connecting Top-Tier Talent with Leading Global Companies
-        </motion.h1> */}
+          TALENT | WELLNESS | GLOBAL
+        </motion.h1>
 
         {/* <motion.p
           initial={{ opacity: 0, y: 20 }}

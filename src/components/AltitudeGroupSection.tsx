@@ -8,7 +8,7 @@ const AltitudeGroupSection = () => {
           <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
             Who We Are
           </p>
-          <h2 className='text-4xl md:text-6xl font-display tracking-wide text-foreground mb-8'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-8'>
             About Altitude Group
           </h2>
         </ScrollReveal>

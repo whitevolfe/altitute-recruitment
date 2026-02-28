@@ -46,7 +46,7 @@ const Header = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className='max-w-7xl mx-auto px-6 py-5 flex items-center justify-between'>
+      <div className='max-w-7xl mx-auto px-6 py-0 flex items-center justify-between'>
         <Link
           to='/'
           className={`flex items-center gap-3 font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : 'text-foreground'}`}
