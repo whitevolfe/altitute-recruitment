@@ -19,7 +19,7 @@ const Index = () => {
         <HeroSection />
         <BrandLogosSection />
         {/* <AboutSection /> */}
-        <GlobalCommunitySection />
+        {/* <GlobalCommunitySection /> */}
         {/* <GlobalSection /> */}
         {/* <WellnessSection /> */}
         {/* <JobsSection /> */}

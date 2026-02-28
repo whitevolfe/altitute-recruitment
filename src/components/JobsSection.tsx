@@ -4,6 +4,7 @@ import { MapPin, Monitor, DollarSign, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ScrollReveal from '@/components/ScrollReveal';
 import { jobs } from '@/data/jobs';
+import GlobalCommunitySection from './GlobalCommunitySection';
 
 const JobsSection = () => {
   const [openId, setOpenId] = useState<string | null>(null);
@@ -17,7 +18,9 @@ const JobsSection = () => {
           </p>
           <br />
 
-          <p className='text-muted-foreground'>
+          <GlobalCommunitySection />
+
+          {/* <p className='text-muted-foreground'>
             Altitude Talent The Group’s first initiative, Altitude Talent, was
             launched as a strategic executive search and talent advisory firm
             dedicated to supporting organizations in Sri Lanka in securing
@@ -27,7 +30,7 @@ const JobsSection = () => {
             recruitment. It partners closely with organizations to understand
             their culture, long-term objectives and growth trajectory, ensuring
             that every placement is strategically aligned with business vision.
-          </p>
+          </p> */}
           <br />
 
           <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
