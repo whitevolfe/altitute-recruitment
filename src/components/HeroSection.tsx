@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import ConsultationModal from './ConsultationModal';
-import heroVideo from '@/assets/hero-video2.mp4';
+import heroVideo from '@/assets/hero-video.mp4';
 
 const HeroSection = () => {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false);

@@ -4,7 +4,7 @@ const BrandLogosSection = () => {
     '/brandlogos/1.svg',
     '/brandlogos/2.svg',
     '/brandlogos/3.svg',
-    // '/brandlogos/4.svg',
+    '/brandlogos/5.svg',
     '/brandlogos/20.svg',
   ];
 
@@ -16,7 +16,7 @@ const BrandLogosSection = () => {
   // ];
 
   return (
-    <section className='bg-black-gradient py-16'>
+    <section className='bg-black py-16'>
       <div className='container mx-auto px-4'>
         {/* First marquee */}
         <div className='flex overflow-hidden mb-8'>
@@ -30,7 +30,7 @@ const BrandLogosSection = () => {
                 />
               </div>
             ))}
-            {logos1.map((logo, index) => (
+            {/* {logos1.map((logo, index) => (
               <div key={`dup-${index}`} className='flex-shrink-0 mx-4'>
                 <img
                   src={logo}
@@ -38,7 +38,7 @@ const BrandLogosSection = () => {
                   className='h-16 w-60'
                 />
               </div>
-            ))}
+            ))} */}
           </div>
         </div>
 
