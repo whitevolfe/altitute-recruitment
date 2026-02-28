@@ -34,7 +34,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id='contact' className='bg-background section-padding bg-card '>
+    <section id='contact' className='section-padding bg-card '>
       <div className='max-w-7xl mx-auto '>
         <ScrollReveal>
           <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
