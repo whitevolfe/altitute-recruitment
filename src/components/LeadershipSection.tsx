@@ -16,7 +16,7 @@ const founders = [
     linkedinUrl: 'https://www.linkedin.com/in/charitha-malalasekera-2386811b7/',
   },
   {
-    name: 'Natlie',
+    name: 'Natlie Jackson',
     title: 'Co-Founder',
     bio: [
       'Natlie is the Co-Founder of Altitude Group and a strategic leader with over 12 years of corporate experience across European, US and Asian markets.',
