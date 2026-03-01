@@ -1,10 +1,14 @@
 const BrandLogosSection = () => {
   // Path starts from /public automatically
   const logos1 = [
-    '/brandlogos/1.svg',
+    // '/brandlogos/1.svg',
     '/brandlogos/2.svg',
     '/brandlogos/3.svg',
-    '/brandlogos/5.svg',
+    '/brandlogos/4.svg',
+    '/brandlogos/20.svg',
+    '/brandlogos/2.svg',
+    '/brandlogos/3.svg',
+    '/brandlogos/4.svg',
     '/brandlogos/20.svg',
   ];
 

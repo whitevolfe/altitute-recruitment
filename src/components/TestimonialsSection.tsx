@@ -45,39 +45,44 @@ const TestimonialsSection = () => {
   const t = testimonials[current];
 
   return (
-    <section id='testimonials' className='section-padding'>
-      <div className='max-w-4xl mx-auto'>
+    <section
+      id='testimonials'
+      className='py-24 bg-black relative overflow-hidden'
+    >
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
+
+      <div className='relative z-10 max-w-4xl mx-auto px-6'>
         <ScrollReveal>
-          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
+          <p className='text-xs tracking-[0.3em] uppercase text-white/70 mb-4 font-body'>
             Testimonials
           </p>
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16'>
             What Clients Say
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={0.15}>
           <div className='relative'>
-            <Quote size={40} className='text-border mb-6' strokeWidth={1} />
+            <Quote size={40} className='text-white/30 mb-6' strokeWidth={1} />
 
             <div className='min-h-[200px] flex flex-col justify-center'>
-              <p className='text-xl md:text-2xl text-foreground font-body font-light leading-relaxed mb-8'>
+              <p className='text-xl md:text-2xl text-white font-body font-light leading-relaxed mb-8'>
                 "{t.quote}"
               </p>
 
               <div className='flex items-center gap-4'>
-                <div className='w-12 h-12 rounded-full bg-secondary flex items-center justify-center'>
-                  <span className='font-display text-lg text-foreground'>
+                <div className='w-12 h-12 rounded-full bg-white/10 flex items-center justify-center'>
+                  <span className='font-display text-lg text-white'>
                     {t.initials}
                   </span>
                 </div>
                 <div>
-                  <p className='text-foreground font-body font-medium'>
-                    {t.name}
-                  </p>
-                  <p className='text-sm text-muted-foreground font-body'>
-                    {t.company}
-                  </p>
+                  <p className='text-white font-body font-medium'>{t.name}</p>
+                  <p className='text-sm text-white/70 font-body'>{t.company}</p>
                 </div>
               </div>
             </div>
@@ -85,13 +90,13 @@ const TestimonialsSection = () => {
             <div className='flex items-center gap-4 mt-10'>
               <button
                 onClick={prev}
-                className='w-10 h-10 border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors'
+                className='w-10 h-10 border border-white/30 flex items-center justify-center text-white/70 hover:text-white hover:border-white/50 transition-colors'
               >
                 <ChevronLeft size={18} />
               </button>
               <button
                 onClick={next}
-                className='w-10 h-10 border border-border flex items-center justify-center text-muted-foreground hover:text-foreground hover:border-foreground/30 transition-colors'
+                className='w-10 h-10 border border-white/30 flex items-center justify-center text-white/70 hover:text-white hover:border-white/50 transition-colors'
               >
                 <ChevronRight size={18} />
               </button>
@@ -102,7 +107,7 @@ const TestimonialsSection = () => {
                     key={i}
                     onClick={() => setCurrent(i)}
                     className={`w-2 h-2 rounded-full transition-colors ${
-                      i === current ? 'bg-foreground' : 'bg-border'
+                      i === current ? 'bg-white' : 'bg-white/30'
                     }`}
                   />
                 ))}
