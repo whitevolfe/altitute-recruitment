@@ -11,6 +11,7 @@ import JobsSection from '@/components/JobsSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import TradingRevolutionSection from '@/components/TradingRevolutionSection';
 import CallToActionSection from '@/components/CallToActionSection';
+import FAQSection from '@/components/FAQSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
@@ -31,6 +32,7 @@ const Index = () => {
         <TestimonialsSection />
         <TradingRevolutionSection />
         <CallToActionSection />
+        <FAQSection />
         {/* <ContactSection /> */}
       </main>
       <Footer />
