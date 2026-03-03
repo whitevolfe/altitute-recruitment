@@ -14,8 +14,8 @@ const navLinks = [
     label: 'About',
     href: '/about',
     dropdown: [
-      { label: 'Altitude Group', href: '/about/altitude-group' },
-      { label: 'Leadership', href: '/about/leadership' },
+      { label: 'ALTITUDE GROUP', href: '/about/altitude-group' },
+      { label: 'FOUNDERS', href: '/about/leadership' },
     ],
   },
   // { label: 'Global', href: '/global' },
