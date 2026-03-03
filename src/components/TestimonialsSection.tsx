@@ -47,8 +47,7 @@ const testimonials = [
     initials: 'SE',
   },
   {
-    quote:
-      'I highly recommend Charitha and Natlie as recruiters. They were incredibly proactive throughout my entire job search process, ensuring I was well-prepared for every interview step. Their regular follow-ups were not just check-ins; they were valuable touchpoints that provided clarity and kept me motivated. Thanks to their dedication and support, I successfully landed a great role. They are a true asset to any candidate and companys looking to hire!',
+    quote: `I highly recommend Charitha and Natlie as recruiters. They were incredibly proactive throughout my entire job search process, ensuring I was well-prepared for every interview step. Their regular follow-ups were not just check-ins; they were valuable touchpoints that provided clarity and kept me motivated. Thanks to their dedication and support, I successfully landed a great role. They are a true asset to any candidate and companys looking to hire!`,
     name: 'Lead Technical Consultant',
     // company: 'Meridian Finance Group',
     initials: 'LC',
@@ -69,8 +68,7 @@ const testimonials = [
   },
 
   {
-    quote:
-      'Charitha and Natlie are two of the best Recruiters I have ever met. The approach they have on candidates and their ability to provide a service thats beyond a regular recruiter is admirable. They go above and beyond to support the process of recruitment and check on both the candidate ,client requirements very well, a rare scenario in the recruitment space. I recommend Charitha and Natlie as an asset to any organization. Wishing them the best of luck!',
+    quote: `Charitha and Natlie are two of the best Recruiters I have ever met. The approach they have on candidates and their ability to provide a service thats beyond a regular recruiter is admirable. They go above and beyond to support the process of recruitment and check on both the candidate ,client requirements very well, a rare scenario in the recruitment space. I recommend Charitha and Natlie as an asset to any organization. Wishing them the best of luck!`,
     name: 'Senior Recruitment Lead',
     // company: 'Meridian Finance Group',
     initials: 'SRL',
@@ -84,8 +82,7 @@ const testimonials = [
     initials: 'VP',
   },
   {
-    quote:
-      'I have been in the Advertising & Marketing field for over 19 years and have worked with various recruiters from reputable recruiting agencies. However, I can say without a doubt, Charitha and Natlie are two of the most supportive, attentive, and empathetic recruiters I have ever worked with. In this line of work, it is very important to possess humane qualities, the knowledge and ability to listen and understand candidates & I am sure the same applies to when dealing with employers. Throughout my professional experience with them, they have shown to be the embodiment of all these qualities.',
+    quote: `I have been in the Advertising & Marketing field for over 19 years and have worked with various recruiters from reputable recruiting agencies. However, I can say without a doubt, Charitha and Natlie are two of the most supportive, attentive, and empathetic recruiters I have ever worked with. In this line of work, it is very important to possess humane qualities, the knowledge and ability to listen and understand candidates & I am sure the same applies to when dealing with employers. Throughout my professional experience with them, they have shown to be the embodiment of all these qualities.`,
     name: 'Account Director  ',
     // company: 'Meridian Finance Group',
     initials: 'AD',
@@ -105,15 +102,13 @@ const testimonials = [
     initials: 'CD',
   },
   {
-    quote:
-      'I had the pleasure of working with Charitha and Natlie throughout my recent recruitment process, and I can confidently say that they are among the most professional, approachable, and genuinely supportive recruiters I have encountered. From our very first interaction, they took the time to thoroughly explain the role including responsibilities, expectations, and overall scope ensuring that I had a clear understanding and felt fully confident before proceeding.  They provided timely updates, constructive feedback, and were always available to address any questions or concerns.  What truly sets them apart is their considerate and personalized approach. Beyond the formal aspects of recruitment, they demonstrate genuine care for candidates comfort, confidence, and long-term career development. Their insights and support are not only professional but also meaningful, reflecting a level of dedication that is rare and deeply appreciated. I would highly recommend Charitha, Natlie and Altitude Talent to anyone seeking a recruiter who is responsive, supportive, and sincerely committed to helping candidates find the right opportunities in their career journey.',
+    quote: `I had the pleasure of working with Charitha and Natlie throughout my recent recruitment process, and I can confidently say that they are among the most professional, approachable, and genuinely supportive recruiters I have encountered. From our very first interaction, they took the time to thoroughly explain the role including responsibilities, expectations, and overall scope ensuring that I had a clear understanding and felt fully confident before proceeding.  They provided timely updates, constructive feedback, and were always available to address any questions or concerns.  What truly sets them apart is their considerate and personalized approach. Beyond the formal aspects of recruitment, they demonstrate genuine care for candidates comfort, confidence, and long-term career development. Their insights and support are not only professional but also meaningful, reflecting a level of dedication that is rare and deeply appreciated. I would highly recommend Charitha, Natlie and Altitude Talent to anyone seeking a recruiter who is responsive, supportive, and sincerely committed to helping candidates find the right opportunities in their career journey.`,
     name: 'Senior Business Analyst',
     // company: 'Meridian Finance Group',
     initials: 'SA',
   },
   {
-    quote:
-      'I had the absolute pleasure of working with Charitha and Natlie for my recruitment process and I can confidently say they are two of the most efficient and professional recruiters I have ever come across. From our very first conversation, they were proactive, personable, and genuinely invested in finding the right fit, not just for the client, but also for me as a candidate. They gave me the confidence and preparation I needed to face interviews successfully, offering valuable insights and encouragement throughout the process. Their communication was exceptional and they were always available when I needed advice or clarification, consistently following up every step of the way.  What truly stood out was their thoughtful guidance during the negotiation stage. Their advice helped me navigate the process with clarity and confidence. It’s rare to find people who combine such professionalism with a genuinely caring approach. I would highly recommend Charitha and Natlie to anyone looking for recruiters who are efficient, supportive, and truly committed to achieving the best outcomes for both candidate and client.',
+    quote: `I had the absolute pleasure of working with Charitha and Natlie for my recruitment process and I can confidently say they are two of the most efficient and professional recruiters I have ever come across. From our very first conversation, they were proactive, personable, and genuinely invested in finding the right fit, not just for the client, but also for me as a candidate. They gave me the confidence and preparation I needed to face interviews successfully, offering valuable insights and encouragement throughout the process. Their communication was exceptional and they were always available when I needed advice or clarification, consistently following up every step of the way.  What truly stood out was their thoughtful guidance during the negotiation stage. Their advice helped me navigate the process with clarity and confidence. It's rare to find people who combine such professionalism with a genuinely caring approach. I would highly recommend Charitha and Natlie to anyone looking for recruiters who are efficient, supportive, and truly committed to achieving the best outcomes for both candidate and client.`,
     name: 'Senior Corporate Lawyer',
     // company: 'Meridian Finance Group',
     initials: 'SL',
@@ -139,8 +134,7 @@ const testimonials = [
     initials: 'PM',
   },
   {
-    quote:
-      'Charitha and Natlie helped me find the perfect role, and I couldnt be happier. They really took the time to understand my skills and what I actually wanted to do in my role. Every step of the process was smooth, thanks to their clear communication and constant support. What I appreciate most is how trustworthy and supportive they are. It felt like having someone in my corner who truly wanted the best for me. Charitha is a solid guy with a great heart. With his and Natlie’s expertise, it’s easy to see why Altitude Talent will shine. They arent just great at matching people with jobs, they are great at matching people with the right jobs. I highly recommend working with them. The best doors open when the right people knock.',
+    quote: `Charitha and Natlie helped me find the perfect role, and I couldn't be happier. They really took the time to understand my skills and what I actually wanted to do in my role. Every step of the process was smooth, thanks to their clear communication and constant support. What I appreciate most is how trustworthy and supportive they are. It felt like having someone in my corner who truly wanted the best for me. Charitha is a solid guy with a great heart. With his and Natlie's expertise, it's easy to see why Altitude Talent will shine. They aren't just great at matching people with jobs, they are great at matching people with the right jobs. I highly recommend working with them. The best doors open when the right people knock.`,
     name: 'SEO Specialist',
     // company: 'Meridian Finance Group',
     initials: 'SS',
