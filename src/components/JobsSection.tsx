@@ -16,12 +16,13 @@ const JobsSection = () => {
           <p className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-5 flex items-center justify-center'>
             Altitude Talent
           </p>
-          <p className='mb-5 mt-4'>
-            The Group’s first initiative, Altitude Talent, was launched as a
+          <p className='mb-5 text-xl'>
+            The Groups first initiative, Altitude Talent, was launched as a
             strategic executive search and talent advisory firm dedicated to
             supporting organizations in Sri Lanka in securing high-impact
             professionals. The firm has successfully placed talent across:
             <p className='mb-5'>
+              <br />
               <ul>
                 <li>• Software Engineering</li>
                 <li>• Finance</li>
@@ -51,7 +52,7 @@ const JobsSection = () => {
           </p> */}
           <br />
 
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16 flex items-center justify-center'>
             Open Vacancies
           </h2>
         </ScrollReveal>
