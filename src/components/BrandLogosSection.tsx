@@ -20,10 +20,10 @@ const BrandLogosSection = () => {
   // ];
 
   return (
-    <section className='bg-black py-16'>
+    <section className='bg-black py-1'>
       <div className='container mx-auto px-4'>
         {/* First marquee */}
-        <div className='flex overflow-hidden mb-8'>
+        <div className='flex overflow-hidden mb-1'>
           <div className='flex animate-marquee-left'>
             {logos1.map((logo, index) => (
               <div key={index} className='flex-shrink-0 mx-4'>

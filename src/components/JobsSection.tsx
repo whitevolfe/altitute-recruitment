@@ -10,17 +10,16 @@ const JobsSection = () => {
   const [openId, setOpenId] = useState<string | null>(null);
 
   return (
-    <section id='careers' className='section-padding bg-card'>
+    <section id='careers' className='section-padding bg-transparent'>
       <div className='max-w-4xl mx-auto'>
         <ScrollReveal>
-          <p className='text-xs uppercase text-foreground mb-4 font-body'>
+          <p className='text-xs uppercase text-white/70 mb-4 font-body'>
             Altitude Talent
           </p>
           <br />
-
           <GlobalCommunitySection />
 
-          {/* <p className='text-muted-foreground'>
+          {/* <p className='text-white/70'>
             Altitude Talent The Group’s first initiative, Altitude Talent, was
             launched as a strategic executive search and talent advisory firm
             dedicated to supporting organizations in Sri Lanka in securing
@@ -33,7 +32,7 @@ const JobsSection = () => {
           </p> */}
           <br />
 
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16'>
             Open Vacancies
           </h2>
         </ScrollReveal>
@@ -41,16 +40,16 @@ const JobsSection = () => {
         <div className='space-y-3'>
           {jobs.map((job, i) => (
             <ScrollReveal key={job.id} delay={0.05 + i * 0.05}>
-              <div className='border border-border bg-background'>
+              <div className='border border-white/10 bg-white/5 backdrop-blur-sm'>
                 <button
                   onClick={() => setOpenId(openId === job.id ? null : job.id)}
                   className='w-full px-6 md:px-8 py-6 flex items-center justify-between text-left group'
                 >
                   <div className='flex-1'>
-                    <h3 className='font-display text-xl md:text-2xl tracking-wide text-foreground mb-2'>
+                    <h3 className='font-display text-xl md:text-2xl tracking-wide text-white mb-2'>
                       {job.title}
                     </h3>
-                    <div className='flex flex-wrap gap-4 text-xs text-muted-foreground font-body'>
+                    <div className='flex flex-wrap gap-4 text-xs text-white/70 font-body'>
                       <span className='flex items-center gap-1.5'>
                         <MapPin size={13} /> {job.location}
                       </span>
@@ -64,7 +63,7 @@ const JobsSection = () => {
                   </div>
                   <ChevronDown
                     size={20}
-                    className={`text-muted-foreground transition-transform duration-300 shrink-0 ml-4 ${
+                    className={`text-white/70 transition-transform duration-300 shrink-0 ml-4 ${
                       openId === job.id ? 'rotate-180' : ''
                     }`}
                   />
@@ -79,24 +78,24 @@ const JobsSection = () => {
                       transition={{ duration: 0.3 }}
                       className='overflow-hidden'
                     >
-                      <div className='px-6 md:px-8 pb-8 border-t border-border pt-6'>
-                        <p className='text-muted-foreground font-body font-light mb-6'>
+                      <div className='px-6 md:px-8 pb-8 border-t border-white/10 pt-6'>
+                        <p className='text-white/80 font-body font-light mb-6'>
                           {job.description}
                         </p>
 
-                        <h4 className='text-xs tracking-[0.2em] uppercase text-foreground mb-3 font-body font-semibold'>
+                        <h4 className='text-xs tracking-[0.2em] uppercase text-white mb-3 font-body font-semibold'>
                           Responsibilities
                         </h4>
-                        <ul className='list-disc list-inside space-y-1.5 text-sm text-muted-foreground font-body font-light mb-6'>
+                        <ul className='list-disc list-inside space-y-1.5 text-sm text-white/70 font-body font-light mb-6'>
                           {job.responsibilities.map((r) => (
                             <li key={r}>{r}</li>
                           ))}
                         </ul>
 
-                        <h4 className='text-xs tracking-[0.2em] uppercase text-foreground mb-3 font-body font-semibold'>
+                        <h4 className='text-xs tracking-[0.2em] uppercase text-white mb-3 font-body font-semibold'>
                           Requirements
                         </h4>
-                        <ul className='list-disc list-inside space-y-1.5 text-sm text-muted-foreground font-body font-light mb-8'>
+                        <ul className='list-disc list-inside space-y-1.5 text-sm text-white/70 font-body font-light mb-8'>
                           {job.requirements.map((r) => (
                             <li key={r}>{r}</li>
                           ))}

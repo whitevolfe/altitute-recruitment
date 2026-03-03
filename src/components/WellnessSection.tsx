@@ -42,14 +42,14 @@ const WellnessSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-5'>
+          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
             We believe high performance starts with wellbeing. Our wellness
             division delivers tailored programmes that support employee health,
             reduce burnout, and create thriving workplace cultures.
           </p>
         </ScrollReveal>
         <ScrollReveal delay={0.15}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-5'>
+          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
             Through years of engagement with both candidates and corporate
             leaders, a consistent theme emerged: performance expectations were
             rising, yet structured and impactful wellbeing strategies were
@@ -58,7 +58,7 @@ const WellnessSection = () => {
         </ScrollReveal>
         <br />
         <ScrollReveal delay={0.15}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-5'>
+          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
             In response, Altitude Wellness was formed as a premier corporate
             wellness platform built on a high impact proprietary Three Pillar
             Methodology.
@@ -66,7 +66,7 @@ const WellnessSection = () => {
         </ScrollReveal>
         <br />
         <ScrollReveal delay={0.15}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-5'>
+          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
             The program integrates psychology, practical wellness and leadership
             insight frameworks to help organizations build resilient,
             high-performing teams. Its approach is structured, measurable and

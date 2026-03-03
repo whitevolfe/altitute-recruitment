@@ -25,7 +25,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
-          className='text-5xl md:text-7xl lg:text-8xl font-display leading-[0.95] text-foreground mb-6 tracking-wide'
+          className='text-5xl md:text-7xl lg:text-8xl font-body leading-[0.95] text-foreground mb-6 tracking-wide'
         >
           ALTITUDE GROUP
         </motion.h1>

@@ -58,7 +58,7 @@ const GlobalCommunitySection = () => {
           transition={{ duration: 0.6 }}
           className='text-center mb-12'
         >
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-4'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-4'>
             Careers
           </h2>
         </motion.div>
@@ -89,31 +89,28 @@ const GlobalCommunitySection = () => {
                 dragConstraints={{ left: -10, right: 10, top: -10, bottom: 10 }}
                 whileHover={{ scale: 1.05, rotate: 0 }}
                 whileDrag={{ scale: 1.1, zIndex: 10 }}
-                className='inline-flex items-center gap-2 bg-white border border-gray-200 rounded-full px-5 py-2.5 shadow-sm hover:shadow-md transition-shadow cursor-grab active:cursor-grabbing'
+                className='inline-flex items-center gap-2 bg-white/5 border border-white/10 text-white rounded-full px-5 py-2.5 shadow-sm hover:shadow-md transition-shadow cursor-grab active:cursor-grabbing'
               >
-                <span className='text-2xl'>{country.flag}</span>
-                <span className='font-medium text-gray-800'>
-                  {country.name}
-                </span>
+                <span className='font-medium'>{country.name}</span>
               </motion.div>
             );
           })}
 
           <motion.div
-            custom={{
-              y: Math.random() * (-200 + 400) - 400,
-              x: Math.random() * (150 + 150) - 150,
-              rotate: Math.random() * (15 + 15) - 15,
-              finalRotate: Math.random() * (8 + 8) - 8,
-            }}
-            variants={itemVariants}
-            drag
-            dragConstraints={{ left: -10, right: 10, top: -10, bottom: 10 }}
-            whileHover={{ scale: 1.05, rotate: 0 }}
-            whileDrag={{ scale: 1.1, zIndex: 10 }}
-            className='inline-flex items-center gap-2 bg-gray-900 text-white border border-gray-900 rounded-full px-5 py-2.5 shadow-sm cursor-grab active:cursor-grabbing'
+          // custom={{
+          //   y: Math.random() * (-200 + 400) - 400,
+          //   x: Math.random() * (150 + 150) - 150,
+          //   rotate: Math.random() * (15 + 15) - 15,
+          //   finalRotate: Math.random() * (8 + 8) - 8,
+          // }}
+          // variants={itemVariants}
+          // drag
+          // dragConstraints={{ left: -10, right: 10, top: -10, bottom: 10 }}
+          // whileHover={{ scale: 1.05, rotate: 0 }}
+          // whileDrag={{ scale: 1.1, zIndex: 10 }}
+          // className='inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white rounded-full px-5 py-2.5 shadow-sm cursor-grab active:cursor-grabbing'
           >
-            <span className='font-medium'>156+ more</span>
+            {/* <span className='font-medium'>156+ more</span> */}
           </motion.div>
         </motion.div>
       </div>

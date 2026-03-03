@@ -22,17 +22,14 @@ const Index = () => {
       <main>
         <HeroSection />
         <BrandLogosSection />
-        <WhyChooseUsSection />
-        <HowItWorksSection />
         {/* <AboutSection /> */}
         {/* <GlobalCommunitySection /> */}
         {/* <GlobalSection /> */}
         {/* <WellnessSection /> */}
         {/* <JobsSection /> */}
-        <TestimonialsSection />
         <TradingRevolutionSection />
-        <CallToActionSection />
-        <FAQSection />
+        <TestimonialsSection />
+        {/* <FAQSection /> */}
         {/* <ContactSection /> */}
       </main>
       <Footer />
