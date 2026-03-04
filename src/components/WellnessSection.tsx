@@ -4,27 +4,32 @@ import { Check } from 'lucide-react';
 
 const packages = [
   {
-    name: 'Wellness Essentials',
-    desc: 'Foundation programme for employee wellbeing and retention.',
+    name: 'The Altitude Trinity',
+    subtitle: 'Triple Pillar Methodology',
+    desc: 'High-impact intervention model built on a Triple-Pillar Framework integrating:',
     features: [
-      'Employee wellbeing assessments',
-      'Stress management workshops',
-      'Mental health first aid training',
-      'Monthly wellness newsletters',
-      'Quarterly wellness reports',
+      'Psychologist – Clinical Insight',
+      'Wellness Coach – Physical Exercise',
+      'Executive Coach – Strategic Leadership Reinforcement',
     ],
+    closingText:
+      'By addressing performance from clinical, biological, and strategic dimensions within one condensed engagement, organizations receive a turnkey solution to protect their most valuable asset — their people.',
+    route: '/packages/altitude-trinity',
   },
   {
-    name: 'Wellness Premium',
-    desc: 'Comprehensive corporate wellbeing transformation programme.',
+    name: 'Movement Therapy by Rangi Fernando',
+    subtitle: 'Resilience through Movement',
+    desc: 'A guided corporate wellness experience designed to restore, regulate, and strengthen through intentional movement.',
     features: [
-      'Everything in Essentials',
-      '1-on-1 executive coaching',
-      'Custom wellness strategy',
-      'On-site wellness events',
-      'Dedicated wellness consultant',
-      'Annual wellbeing audit',
+      'A Quick Boost',
+      'Self-Discovery & Awareness',
+      'Practical Resilience Tools',
+      'Team Cohesion',
+      'Stress Relief & Emotional Release',
     ],
+    closingText:
+      'Sustained performance is not built on pressure alone, but on a body and mind that are regularly restored.',
+    route: '/packages/movement-therapy',
   },
 ];
 
@@ -81,10 +86,13 @@ const WellnessSection = () => {
                 <h3 className='font-display text-2xl tracking-wide text-black px-4 py-2 mb-3'>
                   {pkg.name}
                 </h3>
-                <p className='text-black font-body font-light mb-8'>
+                <p className='text-xs tracking-[0.2em] uppercase text-black mb-3 font-body'>
+                  {pkg.subtitle}
+                </p>
+                <p className='text-black font-body font-light mb-6'>
                   {pkg.desc}
                 </p>
-                <ul className='space-y-3 mb-10 flex-1'>
+                <ul className='space-y-3 mb-6 flex-1'>
                   {pkg.features.map((f) => (
                     <li
                       key={f}
@@ -95,8 +103,11 @@ const WellnessSection = () => {
                     </li>
                   ))}
                 </ul>
+                <p className='text-black font-body font-light text-sm mb-8'>
+                  {pkg.closingText}
+                </p>
                 <Button size='lg' className='border-border text-black' asChild>
-                  <a href='#contact'>Get Started</a>
+                  <a href={pkg.route}>Explore Package</a>
                 </Button>
               </div>
             </ScrollReveal>

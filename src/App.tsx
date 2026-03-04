@@ -11,6 +11,8 @@ import Global from './pages/Global';
 import Wellness from './pages/Wellness';
 import Talent from './pages/Talent';
 import Contact from './pages/Contact';
+import AltitudeTrinityPage from './pages/AltitudeTrinityPage';
+import MovementTherapyPage from './pages/MovementTherapyPage';
 import NotFound from './pages/NotFound';
 
 const queryClient = new QueryClient();
@@ -28,6 +30,14 @@ const App = () => (
           <Route path='/about/leadership' element={<Leadership />} />
           <Route path='/global' element={<Global />} />
           <Route path='/wellness' element={<Wellness />} />
+          <Route
+            path='/packages/altitude-trinity'
+            element={<AltitudeTrinityPage />}
+          />
+          <Route
+            path='/packages/movement-therapy'
+            element={<MovementTherapyPage />}
+          />
           <Route path='/talent' element={<Talent />} />
           <Route path='/contact' element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
