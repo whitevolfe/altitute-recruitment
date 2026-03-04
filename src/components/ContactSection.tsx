@@ -34,8 +34,17 @@ const ContactSection = () => {
   };
 
   return (
-    <section id='contact' className='section-padding bg-card '>
-      <div className='max-w-7xl mx-auto '>
+    <section
+      id='contact'
+      className='section-padding bg-black relative overflow-hidden'
+    >
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
+
+      <div className='relative z-10 max-w-7xl mx-auto '>
         <ScrollReveal>
           <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
             Get In Touch

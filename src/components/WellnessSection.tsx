@@ -56,15 +56,13 @@ const WellnessSection = () => {
             largely absent.
           </p>
         </ScrollReveal>
-        <br />
-        <ScrollReveal delay={0.15}>
+        <ScrollReveal delay={0.1}>
           <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
             In response, Altitude Wellness was formed as a premier corporate
             wellness platform built on a high impact proprietary Three Pillar
             Methodology.
           </p>
         </ScrollReveal>
-        <br />
         <ScrollReveal delay={0.15}>
           <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
             The program integrates psychology, practical wellness and leadership
@@ -73,6 +71,9 @@ const WellnessSection = () => {
             designed for lasting impact.
           </p>
         </ScrollReveal>
+
+        <br />
+
         <div className='grid md:grid-cols-2 gap-8'>
           {packages.map((pkg, i) => (
             <ScrollReveal key={pkg.name} delay={0.15 + i * 0.1}>
