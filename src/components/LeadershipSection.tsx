@@ -33,8 +33,14 @@ const founders = [
 
 const LeadershipSection = () => {
   return (
-    <section className='section-padding'>
-      <div className='max-w-7xl mx-auto'>
+    <section className='min-h-screen bg-black relative overflow-hidden'>
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
+
+      <div className='relative z-10 max-w-7xl mx-auto px-6 py-20'>
         <ScrollReveal>
           <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-10 font-body'>
             Leadership
@@ -44,7 +50,7 @@ const LeadershipSection = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           {founders.map((founder, i) => (
             <ScrollReveal key={founder.name} delay={0.1 + i * 0.1}>
-              <div className='bg-card border border-border p-8 md:p-10 group hover:border-foreground/20 transition-colors duration-500'>
+              <div className='bg-black border border-border p-8 md:p-10 group hover:border-foreground/20 transition-colors duration-500'>
                 {founder.image ? (
                   <img
                     src={founder.image}

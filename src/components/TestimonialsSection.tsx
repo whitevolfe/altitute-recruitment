@@ -21,7 +21,7 @@ const testimonials = [
     quote:
       'I can confidently recommend Natlie and Charitha based on my experience with them during a recent recruitment opportunity. From the outset they are both friendly, helpful and consistently professional.',
     name: 'Senior Legal Counsel',
-    company: 'Meridian Finance Group',
+    // company: 'Meridian Finance Group',
     initials: 'SC',
   },
   {
@@ -92,7 +92,7 @@ const testimonials = [
       'Natlie and Charitha are exceptional at what they do. They maintain consistent communication and keep you well-informed throughout the recruitment journey. Their proactive approach to addressing inquiries and swift response time truly sets them apart. Without a doubt, two of the most outstanding recruiters that I have had the chance to collaborate with.',
     name: 'Account Director  ',
     // company: 'Meridian Finance Group',
-    initials: 'Social Media Manager',
+    initials: 'SMM',
   },
   {
     quote:
