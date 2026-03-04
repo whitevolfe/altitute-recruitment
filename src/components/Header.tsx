@@ -39,7 +39,9 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 overflow-hidden ${
+        scrolled ? 'h-16' : 'h-20'
+      } ${
         scrolled
           ? isWellnessPage
             ? 'bg-white/95 backdrop-blur-md border-b border-black'
@@ -49,7 +51,7 @@ const Header = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className='max-w-7xl mx-auto px-6 py-0 flex items-center justify-between'>
+      <div className='h-full max-w-7xl mx-auto px-6 flex items-center justify-between'>
         <Link
           to='/'
           className={`flex items-center gap-3 font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : isTalentPage ? 'text-white' : 'text-foreground'}`}
@@ -57,7 +59,7 @@ const Header = () => {
           <img
             src='/brandlogos/altitudegroupheroimg.png'
             alt='Altitude Group Logo'
-            className='h-20 w-30'
+            className='h-20 w-auto object-contain'
           />
         </Link>
 
