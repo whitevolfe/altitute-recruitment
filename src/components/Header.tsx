@@ -57,7 +57,7 @@ const Header = () => {
           <img
             src='/brandlogos/altitudegroupheroimg.png'
             alt='Altitude Group Logo'
-            className='h-30 w-40'
+            className='h-20 w-30'
           />
         </Link>
 

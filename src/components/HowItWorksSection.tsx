@@ -43,46 +43,43 @@ const HowItWorksSection = () => {
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         <ScrollReveal>
-          <div className='text-center mb-16'>
-            <h2 className='text-4xl md:text-6xl font-display tracking-wide text-white mb-6'>
-              How It Works
-            </h2>
-            <p className='text-xl text-white/80 font-body max-w-3xl mx-auto leading-relaxed'>
-              A streamlined and transparent recruitment process designed for
-              efficiency and compliance.
+          <div className='mb-16'>
+            <p className='text-white/60 text-xs tracking-[0.3em] uppercase font-body mb-4'>
+              OUR PROCESS <span className='text-white/40'>—</span>
             </p>
+            <h2 className='text-5xl md:text-7xl font-body font-bold text-white mb-8'>
+              How it works, step by step
+            </h2>
+            <div className='border-t border-white/20 w-full'></div>
           </div>
         </ScrollReveal>
 
         {/* Timeline for desktop */}
         <div className='hidden lg:block relative'>
           {/* Connecting line */}
-          <div className='absolute top-24 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-200 via-blue-400 to-blue-600'></div>
+          <div className='absolute top-12 left-0 right-0 h-px bg-white/10'></div>
 
           <div className='grid grid-cols-4 gap-8'>
             {steps.map((step, index) => {
               const Icon = step.icon;
               return (
                 <ScrollReveal key={step.number} delay={index * 0.15}>
-                  <div className='group relative'>
-                    {/* Step circle */}
-                    <div className='flex justify-center mb-8'>
-                      <div className='relative'>
-                        <div className='w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-lg group-hover:scale-110 transition-transform duration-300 shadow-lg'>
-                          {step.number}
-                        </div>
-                        <div className='absolute -top-2 -right-2 w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center group-hover:bg-blue-200 transition-colors duration-300'>
-                          <Icon size={16} className='text-blue-600' />
-                        </div>
-                      </div>
+                  <div className='group relative pt-8'>
+                    {/* Step indicator */}
+                    <div className='flex items-center gap-3 mb-4'>
+                      <div className='w-2 h-2 bg-green-400 rounded-full'></div>
+                      <span className='text-green-400 text-sm font-bold tracking-widest uppercase'>
+                        {step.number}
+                      </span>
                     </div>
 
                     {/* Content */}
-                    <div className='bg-white/5 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-white/10'>
-                      <h3 className='text-xl font-display font-semibold text-white mb-3 text-center'>
+                    <div>
+                      <h3 className='text-xl font-body font-semibold text-white mb-3 group-hover:text-green-400 transition-colors duration-300 flex items-center gap-2'>
+                        <Icon size={16} className='text-white/40' />
                         {step.title}
                       </h3>
-                      <p className='text-white/80 font-body leading-relaxed text-center'>
+                      <p className='text-white/70 font-body leading-relaxed'>
                         {step.description}
                       </p>
                     </div>
@@ -99,25 +96,22 @@ const HowItWorksSection = () => {
             const Icon = step.icon;
             return (
               <ScrollReveal key={step.number} delay={index * 0.15}>
-                <div className='group flex items-start gap-6'>
-                  {/* Step number and icon */}
-                  <div className='flex-shrink-0'>
-                    <div className='relative'>
-                      <div className='w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm group-hover:scale-110 transition-transform duration-300 shadow-lg'>
-                        {step.number}
-                      </div>
-                      <div className='absolute -top-1 -right-1 w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center group-hover:bg-blue-200 transition-colors duration-300'>
-                        <Icon size={12} className='text-blue-600' />
-                      </div>
-                    </div>
+                <div className='group'>
+                  {/* Step indicator */}
+                  <div className='flex items-center gap-3 mb-4'>
+                    <div className='w-2 h-2 bg-green-400 rounded-full'></div>
+                    <span className='text-green-400 text-sm font-bold tracking-widest uppercase'>
+                      {step.number}
+                    </span>
                   </div>
 
                   {/* Content */}
-                  <div className='flex-1 bg-white/5 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-white/10'>
-                    <h3 className='text-lg font-display font-semibold text-white mb-2'>
+                  <div>
+                    <h3 className='text-xl font-display font-semibold text-white mb-3 group-hover:text-green-400 transition-colors duration-300 flex items-center gap-2'>
+                      <Icon size={16} className='text-white/40' />
                       {step.title}
                     </h3>
-                    <p className='text-white/80 font-body leading-relaxed'>
+                    <p className='text-white/70 font-body leading-relaxed'>
                       {step.description}
                     </p>
                   </div>
