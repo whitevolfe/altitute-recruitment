@@ -55,9 +55,9 @@ const Header = () => {
           className={`flex items-center gap-3 font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : isTalentPage ? 'text-white' : 'text-foreground'}`}
         >
           <img
-            src='/brandlogos/1.svg'
+            src='/brandlogos/altitudegroupheroimg.png'
             alt='Altitude Group Logo'
-            className='h-20 w-25'
+            className='h-30 w-40'
           />
         </Link>
 

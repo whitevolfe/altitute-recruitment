@@ -72,7 +72,7 @@ const JobsSection = () => {
                     className='w-full px-6 md:px-8 py-6 flex items-center justify-between text-left group'
                   >
                     <div className='flex-1'>
-                      <h3 className='font-display text-xl md:text-2xl tracking-wide text-white mb-2'>
+                      <h3 className='font-body text-xl md:text-2xl tracking-wide text-white mb-2'>
                         {job.title}
                       </h3>
                       <div className='flex flex-wrap gap-4 text-xs text-white/70 font-body'>

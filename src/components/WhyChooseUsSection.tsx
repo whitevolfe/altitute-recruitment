@@ -46,7 +46,7 @@ const WhyChooseUsSection = () => {
       <div className='relative z-10 max-w-7xl mx-auto'>
         <ScrollReveal>
           <div className='text-center mb-16'>
-            <h2 className='text-4xl md:text-6xl font-display tracking-wide text-white mb-6'>
+            <h2 className='text-4xl md:text-6xl font-body tracking-wide text-white mb-6'>
               Why Choose Us
             </h2>
             <p className='text-xl text-white/80 font-body max-w-4xl mx-auto leading-relaxed'>
@@ -69,7 +69,7 @@ const WhyChooseUsSection = () => {
                         className='text-blue-400 group-hover:scale-110 transition-transform duration-300'
                       />
                     </div>
-                    <h3 className='text-xl font-display font-semibold text-white mb-4 group-hover:text-blue-200 transition-colors'>
+                    <h3 className='text-xl font-body font-semibold text-white mb-4 group-hover:text-blue-200 transition-colors'>
                       {point.title}
                     </h3>
                     <p className='text-white/80 font-body leading-relaxed flex-1'>

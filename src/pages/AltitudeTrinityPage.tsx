@@ -24,7 +24,7 @@ const AltitudeTrinityPage = () => {
           <div className='space-y-16'>
             <ScrollReveal delay={0.1}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   The Mission
                 </h2>
                 <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
@@ -46,7 +46,7 @@ const AltitudeTrinityPage = () => {
 
             <ScrollReveal delay={0.2}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   The Business Imperative
                 </h2>
                 <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
@@ -76,7 +76,7 @@ const AltitudeTrinityPage = () => {
 
             <ScrollReveal delay={0.4}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   Terms & Inclusions
                 </h2>
                 <div className='space-y-4'>
@@ -132,12 +132,12 @@ const AltitudeTrinityPage = () => {
             </ScrollReveal>
             <ScrollReveal delay={0.3}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   The Process
                 </h2>
                 <div className='space-y-6'>
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
                       Consultation
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
@@ -147,7 +147,7 @@ const AltitudeTrinityPage = () => {
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
                       Tailoring
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
@@ -157,7 +157,7 @@ const AltitudeTrinityPage = () => {
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
                       Execution
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
@@ -200,7 +200,7 @@ const AltitudeTrinityPage = () => {
                             <input
                               type='hidden'
                               name='access_key'
-                              value='YOUR_WEB3FORMS_ACCESS_KEY'
+                              value='26c0c484-0f08-44f4-9b53-85677e50cfd5'
                             />
                             <input
                               type='hidden'

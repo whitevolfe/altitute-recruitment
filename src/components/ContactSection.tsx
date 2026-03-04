@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 import ScrollReveal from '@/components/ScrollReveal';
 import { Mail, MapPin, Linkedin, Instagram, Facebook } from 'lucide-react';
 
-const WEB3FORMS_KEY = 'YOUR_ACCESS_KEY_HERE'; // Replace with your Web3Forms access key
+const WEB3FORMS_KEY = '26c0c484-0f08-44f4-9b53-85677e50cfd5'; // Replace with your Web3Forms access key
 
 const ContactSection = () => {
   const [loading, setLoading] = useState(false);
@@ -137,7 +137,7 @@ const ContactSection = () => {
           <ScrollReveal delay={0.2}>
             <div className='space-y-8'>
               <div>
-                <h3 className='font-display text-xl tracking-wide text-foreground mb-4'>
+                <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
                   Contact Details
                 </h3>
                 <div className='space-y-6'>
@@ -156,7 +156,7 @@ const ContactSection = () => {
               </div>
 
               <div>
-                <h3 className='font-display text-xl tracking-wide text-foreground mb-4'>
+                <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
                   Connect
                 </h3>
                 <div className='space-x-6'>
