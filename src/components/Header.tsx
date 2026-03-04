@@ -39,8 +39,8 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 overflow-hidden ${
-        scrolled ? 'h-16' : 'h-20'
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        scrolled ? 'min-h-16' : 'min-h-20'
       } ${
         scrolled
           ? isWellnessPage
@@ -51,7 +51,7 @@ const Header = () => {
           : 'bg-transparent'
       }`}
     >
-      <div className='h-full max-w-7xl mx-auto px-6 flex items-center justify-between'>
+      <div className='h-full max-w-7xl mx-auto px-6 flex items-center justify-between overflow-hidden'>
         <Link
           to='/'
           className={`flex items-center gap-3 font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : isTalentPage ? 'text-white' : 'text-foreground'}`}
