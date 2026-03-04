@@ -4,6 +4,7 @@ import Footer from '@/components/Footer';
 import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import CallToActionSection from '@/components/CallToActionSection';
+import GlobalCommunitySection from '@/components/GlobalCommunitySection';
 
 const Talent = () => {
   return (
@@ -22,7 +23,8 @@ const Talent = () => {
         </main>
         <WhyChooseUsSection />
         <HowItWorksSection />
-        <CallToActionSection />
+        <GlobalCommunitySection />
+        {/* <CallToActionSection /> */}
         <Footer />
       </div>
     </div>

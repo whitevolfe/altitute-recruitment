@@ -1,15 +1,13 @@
 const BrandLogosSection = () => {
-  // Path starts from /public automatically
-  const logos1 = [
-    // '/brandlogos/1.svg',
-    '/brandlogos/2.svg',
-    '/brandlogos/3.svg',
-    '/brandlogos/4.svg',
-    '/brandlogos/20.svg',
-    '/brandlogos/2.svg',
-    '/brandlogos/3.svg',
-    '/brandlogos/4.svg',
-    '/brandlogos/20.svg',
+  const brands = [
+    'ALTITUDE GROUP',
+    'ALTITUDE TALENT',
+    'ALTITUDE WELLNESS',
+    'ALTITUDE GLOBAL',
+    'ALTITUDE GROUP',
+    'ALTITUDE TALENT',
+    'ALTITUDE WELLNESS',
+    'ALTITUDE GLOBAL',
   ];
 
   // const logos2 = [
@@ -25,13 +23,11 @@ const BrandLogosSection = () => {
         {/* First marquee */}
         <div className='flex overflow-hidden mb-1'>
           <div className='flex animate-marquee-left'>
-            {logos1.map((logo, index) => (
-              <div key={index} className='flex-shrink-0 mx-4'>
-                <img
-                  src={logo}
-                  alt={`Brand Logo ${index + 1}`}
-                  className='h-16 w-60'
-                />
+            {brands.map((brand, index) => (
+              <div key={index} className='flex-shrink-0 mx-8'>
+                <span className='text-white text-2xl font-bold tracking-wider'>
+                  {brand}
+                </span>
               </div>
             ))}
             {/* {logos1.map((logo, index) => (

@@ -13,7 +13,7 @@ const testimonials = [
   {
     quote:
       'I have had the pleasure of working with Charitha and Natlie through external partnerships. They are incredibly professional, polite, and a joy to work with. They pay close attention to every detail, take the time to understand business needs, and provide clear clarifications. Their positive attitude consistently stands out. I can confidently say that they are highly dedicated to their work and truly one of the best. I look forward to working with them long-term.',
-    company: 'Operations Manager',
+    name: 'Operations Manager',
     initials: 'OM',
   },
 
@@ -87,13 +87,13 @@ const testimonials = [
     // company: 'Meridian Finance Group',
     initials: 'AD',
   },
-  {
-    quote:
-      'Natlie and Charitha are exceptional at what they do. They maintain consistent communication and keep you well-informed throughout the recruitment journey. Their proactive approach to addressing inquiries and swift response time truly sets them apart. Without a doubt, two of the most outstanding recruiters that I have had the chance to collaborate with.',
-    name: 'Account Director  ',
-    // company: 'Meridian Finance Group',
-    initials: 'SMM',
-  },
+  // {
+  //   quote:
+  //     'Natlie and Charitha are exceptional at what they do. They maintain consistent communication and keep you well-informed throughout the recruitment journey. Their proactive approach to addressing inquiries and swift response time truly sets them apart. Without a doubt, two of the most outstanding recruiters that I have had the chance to collaborate with.',
+  //   name: 'Account Director  ',
+  //   // company: 'Meridian Finance Group',
+  //   initials: 'SMM',
+  // },
   {
     quote:
       "I have had the pleasure of working closely with Natlie and Charitha, the founders of Altitude Talent, and I can confidently say they are among the most dedicated and professional recruiters we've partnered with.  As a team, they take the time to genuinely understand our business, our culture, and the specific requirements of each role. What sets them apart is the initiative they take throughout the entire process and from clarifying our expectations, to refining the candidate profile, to going above and beyond to source the right people, even for highly specialised or challenging positions. Their communication is always clear, proactive, and honest, and they consistently deliver candidates who are well-screened, aligned, and ready to add value from day one. Their partnership-driven approach makes the recruitment process smooth, efficient, and truly collaborative.  I highly recommend Natlie, Charitha, and Altitude Talent to any organisation seeking recruiters who combine professionalism, commitment, and a genuine passion for connecting the right talent with the right opportunities. They have been invaluable to our hiring success, and I look forward to continuing our work together.",

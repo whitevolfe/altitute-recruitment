@@ -1,8 +1,12 @@
+import { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
+import { Button } from '@/components/ui/button';
 
 const AltitudeTrinityPage = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className='min-h-screen bg-background'>
       <Header />
@@ -24,19 +28,19 @@ const AltitudeTrinityPage = () => {
                   The Mission
                 </h2>
                 <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
-                  The Altitude Trinity represents our commitment to holistic
-                  human performance optimization. By integrating clinical
-                  psychology, physical wellness coaching, and strategic
-                  leadership development, we create comprehensive interventions
-                  that address the complete spectrum of human performance
-                  factors.
+                  To retain high-performing talent by strengthening the mental,
+                  physical, and leadership foundations that sustain long-term
+                  performance. Altitude Wellness protects organizations from
+                  burnout-driven attrition, restores workforce productivity, and
+                  ensures teams remain resilient, engaged, and capable, even in
+                  high pressure environments.
                 </p>
-                <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
+                {/* <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
                   Our mission is to empower organizations with turnkey solutions
                   that protect and enhance their most valuable asset—their
                   people—through scientifically grounded, practically applicable
                   methodologies that deliver measurable, sustainable results.
-                </p>
+                </p> */}
               </section>
             </ScrollReveal>
 
@@ -46,29 +50,86 @@ const AltitudeTrinityPage = () => {
                   The Business Imperative
                 </h2>
                 <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
-                  In today's hyper-competitive business environment,
-                  organizational success is increasingly dependent on human
-                  performance optimization. The traditional approach of focusing
-                  solely on strategic and operational excellence is insufficient
-                  when human capital represents the primary competitive
-                  differentiator.
+                  EMPLOYER BRAND POSITIONING : Signal to top-tier talent that
+                  your organization invests in long-term human mastery.
+                  PERFORMANCE OPTIMIZATION : Shift teams from presenteeism to
+                  peak operational state. DECISION INTEGRITY : Protect cognitive
+                  reserves in leadership during high-stakes periods. TALENT
+                  RETENTION : Reduce the high financial and cultural cost of
+                  burnout-driven attrition.
                 </p>
-                <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
+                {/* <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
                   Research consistently demonstrates that employee wellbeing
                   directly correlates with productivity, innovation, and
                   retention. However, fragmented wellness approaches often fail
                   to address the interconnected nature of clinical, biological,
                   and strategic performance factors.
-                </p>
-                <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
+                </p> */}
+                {/* <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
                   The Altitude Trinity bridges this gap by providing integrated,
                   evidence-based interventions that simultaneously address
                   mental health, physical wellness, and leadership effectiveness
                   within a single, cohesive framework.
-                </p>
+                </p> */}
               </section>
             </ScrollReveal>
 
+            <ScrollReveal delay={0.4}>
+              <section>
+                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                  Terms & Inclusions
+                </h2>
+                <div className='space-y-4'>
+                  <div>
+                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                      The Expert Panel All tiers include the full Triple-Pillar
+                      team:
+                      <ul>
+                        <li>* Psychologist</li>
+                        <li>* Wellness Coach</li>
+                        <li>* Executive Coach</li>
+                      </ul>
+                    </p>
+                  </div>
+
+                  <div>
+                    {/* <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
+                      Confidentiality
+                    </h3> */}
+                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                      Performance Reinforcement Each participant receives a
+                      curated performance gift set to extend learning beyond the
+                      session.
+                    </p>
+                  </div>
+
+                  <div>
+                    {/* <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
+                      Customization
+                    </h3> */}
+                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                      Legacy Tier Experience Includes:
+                      <ul>
+                        <li>* Exclusive luxury resort venue hire</li>
+                        <li>* Gourmet wellness-focused dining</li>
+                        <li>* Private executive wellness sessions</li>
+                      </ul>
+                    </p>
+                  </div>
+
+                  <div>
+                    {/* <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
+                      Measurement & Reporting
+                    </h3> */}
+                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                      Due to the exclusive nature of venues and program
+                      structure, investment is confirmed following a private
+                      discovery consultation.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </ScrollReveal>
             <ScrollReveal delay={0.3}>
               <section>
                 <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
@@ -77,103 +138,170 @@ const AltitudeTrinityPage = () => {
                 <div className='space-y-6'>
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
-                      Phase 1: Clinical Assessment & Foundation Building
+                      Consultation
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Our licensed psychologist conducts comprehensive
-                      assessments to establish baseline mental health metrics
-                      and identify organizational stress patterns. This phase
-                      establishes the clinical foundation for all subsequent
-                      interventions.
+                      A focused discovery call to identify organizational
+                      pressure points and workforce risk indicators.
                     </p>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
-                      Phase 2: Physical Wellness Integration
+                      Tailoring
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Certified wellness coaches design personalized physical
-                      wellness programs that complement clinical insights,
-                      focusing on sustainable lifestyle changes that enhance
-                      cognitive function and emotional regulation.
+                      The expert panel customizes content aligned with industry
+                      demands and leadership dynamics.
                     </p>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
-                      Phase 3: Leadership Reinforcement
+                      Execution
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Executive coaches work with leadership teams to integrate
-                      wellness principles into organizational culture, ensuring
-                      sustainable implementation and long-term performance
-                      optimization.
+                      Seamless, professionally managed delivery with minimal
+                      operational disruption.
                     </p>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    {/* <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
                       Phase 4: Integration & Sustainment
-                    </h3>
+                    </h3> */}
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Comprehensive follow-up programs ensure lasting change
-                      through ongoing support, measurement, and adjustment based
-                      on real-world organizational dynamics.
-                    </p>
-                  </div>
-                </div>
-              </section>
-            </ScrollReveal>
-
-            <ScrollReveal delay={0.4}>
-              <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
-                  Terms & Conditions
-                </h2>
-                <div className='space-y-4'>
-                  <div>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Program Duration
-                    </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      The Altitude Trinity program spans 12 weeks with flexible
-                      scheduling to accommodate organizational needs and time
-                      zone considerations.
+                      Your workforce is your greatest asset. Strengthen it
                     </p>
                   </div>
 
                   <div>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Confidentiality
-                    </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      All participant information is treated with the highest
-                      level of confidentiality in accordance with international
-                      privacy standards and professional ethical guidelines.
-                    </p>
-                  </div>
+                    <Button
+                      variant='hero-outline'
+                      size='lg'
+                      onClick={() => setIsOpen(true)}
+                    >
+                      Build the team that builds your company Speak to a Talent
+                      Partner
+                    </Button>
 
-                  <div>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Customization
-                    </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Programs are tailored to specific organizational cultures,
-                      industry requirements, and participant needs while
-                      maintaining evidence-based methodological integrity.
-                    </p>
-                  </div>
+                    {isOpen && (
+                      <div className='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50'>
+                        <div className='bg-white p-6 rounded-lg max-w-md w-full mx-4'>
+                          <h3 className='text-lg font-semibold mb-4'>
+                            Speak to a Talent Partner
+                          </h3>
+                          <form
+                            action='https://api.web3forms.com/submit'
+                            method='POST'
+                            className='space-y-4'
+                            onSubmit={() => setIsOpen(false)}
+                          >
+                            <input
+                              type='hidden'
+                              name='access_key'
+                              value='YOUR_WEB3FORMS_ACCESS_KEY'
+                            />
+                            <input
+                              type='hidden'
+                              name='subject'
+                              value='New Talent Partner Inquiry'
+                            />
+                            <input
+                              type='hidden'
+                              name='from_name'
+                              value='Altitude Talent Website'
+                            />
+                            <input
+                              type='hidden'
+                              name='to'
+                              value='your-email@example.com'
+                            />
 
-                  <div>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Measurement & Reporting
-                    </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Comprehensive pre- and post-program assessments provide
-                      measurable outcomes and ROI documentation for
-                      organizational stakeholders.
-                    </p>
+                            <div>
+                              <label
+                                htmlFor='name'
+                                className='block text-sm font-medium text-gray-700'
+                              >
+                                Name
+                              </label>
+                              <input
+                                type='text'
+                                id='name'
+                                name='name'
+                                required
+                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
+                              />
+                            </div>
+
+                            <div>
+                              <label
+                                htmlFor='email'
+                                className='block text-sm font-medium text-gray-700'
+                              >
+                                Email
+                              </label>
+                              <input
+                                type='email'
+                                id='email'
+                                name='email'
+                                required
+                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
+                              />
+                            </div>
+
+                            <div>
+                              <label
+                                htmlFor='company'
+                                className='block text-sm font-medium text-gray-700'
+                              >
+                                Company
+                              </label>
+                              <input
+                                type='text'
+                                id='company'
+                                name='company'
+                                required
+                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
+                              />
+                            </div>
+
+                            <div>
+                              <label
+                                htmlFor='message'
+                                className='block text-sm font-medium text-gray-700'
+                              >
+                                Message
+                              </label>
+                              <textarea
+                                id='message'
+                                name='message'
+                                rows={4}
+                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
+                              ></textarea>
+                            </div>
+
+                            <div className='flex space-x-2'>
+                              <Button
+                                type='submit'
+                                variant='hero'
+                                className='flex-1'
+                              >
+                                Submit
+                              </Button>
+                              <Button
+                                type='button'
+                                variant='outline'
+                                onClick={() => setIsOpen(false)}
+                                className='flex-1'
+                              >
+                                Cancel
+                              </Button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    )}
                   </div>
                 </div>
               </section>
