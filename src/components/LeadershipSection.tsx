@@ -50,7 +50,7 @@ const LeadershipSection = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           {founders.map((founder, i) => (
             <ScrollReveal key={founder.name} delay={0.1 + i * 0.1}>
-              <div className='bg-black border border-border p-8 md:p-10 group hover:border-foreground/20 transition-colors duration-500'>
+              <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300'>
                 {founder.image ? (
                   <img
                     src={founder.image}
