@@ -26,45 +26,39 @@ const JobsSection = () => {
             Altitude Talent
           </p>
         </ScrollReveal>
-      </div>
-      <div className='max-w-4xl mx-auto'>
+
         <ScrollReveal delay={0.1}>
-          <p className='mb-5 text-md font-body'>
-            The Groups first initiative, Altitude Talent, was launched as a
-            strategic executive search and talent advisory firm dedicated to
-            supporting organizations in Sri Lanka in securing high-impact
-            professionals. The firm has successfully placed talent across:
-            <p className='mb-5'>
-              <br />
-              <ul>
-                <li>• Software Engineering</li>
-                <li>• Finance</li>
-                <li>• Legal</li>
-                <li>• Marketing</li>
-                <li>• Executive Leadership</li>
-              </ul>
+          <div className='max-w-3xl mx-auto space-y-6'>
+            <p className='text-white/80 font-body font-light text-lg md:text-xl leading-relaxed'>
+              The Group's first initiative, Altitude Talent, was launched as a
+              strategic executive search and talent advisory firm dedicated to
+              supporting organizations in Sri Lanka in securing high-impact
+              professionals.
             </p>
-            Altitude Talent goes beyond transactional recruitment. It partners
-            closely with organizations to understand their culture, long-term
-            objectives and growth trajectory, ensuring that every placement is
-            strategically aligned with business vision.
-          </p>
-          <br />
 
-          {/* <p className='text-white/70'>
-            Altitude Talent The Group’s first initiative, Altitude Talent, was
-            launched as a strategic executive search and talent advisory firm
-            dedicated to supporting organizations in Sri Lanka in securing
-            high-impact professionals. The firm has successfully placed talent
-            across: • Software Engineering • Finance • Legal • Marketing •
-            Executive Leadership Altitude Talent goes beyond transactional
-            recruitment. It partners closely with organizations to understand
-            their culture, long-term objectives and growth trajectory, ensuring
-            that every placement is strategically aligned with business vision.
-          </p> */}
-          <br />
+            <p className='text-white/80 font-body font-light text-lg md:text-xl leading-relaxed'>
+              The firm has successfully placed talent across:
+            </p>
+
+            <ul className='list-disc list-inside space-y-2 text-white/80 font-body font-light text-lg md:text-xl'>
+              <li>Software Engineering</li>
+              <li>Finance</li>
+              <li>Legal</li>
+              <li>Marketing</li>
+              <li>Executive Leadership</li>
+            </ul>
+
+            <p className='text-white/80 font-body font-light text-lg md:text-xl leading-relaxed'>
+              Altitude Talent goes beyond transactional recruitment. It partners
+              closely with organizations to understand their culture, long-term
+              objectives, and growth trajectory, ensuring that every placement
+              is strategically aligned with business vision.
+            </p>
+          </div>
         </ScrollReveal>
+      </div>
 
+      <div className='max-w-4xl mx-auto'>
         <div className='mx-auto max-w-4xl'>
           <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16 flex items-center justify-center'>
             Open Vacancies
