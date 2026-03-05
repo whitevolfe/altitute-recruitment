@@ -25,7 +25,7 @@ const BrandLogosSection = () => {
           <div className='flex animate-marquee-left'>
             {brands.map((brand, index) => (
               <div key={index} className='flex-shrink-0 mx-8'>
-                <span className='text-white text-2xl font-bold tracking-wider'>
+                <span className='text-white text-1xl tracking-wider'>
                   {brand}
                 </span>
               </div>

@@ -58,13 +58,14 @@ const JobsSection = () => {
         </ScrollReveal>
       </div>
 
-      <div className='max-w-4xl mx-auto'>
-        <div className='mx-auto max-w-4xl'>
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16 flex items-center justify-center'>
-            Open Vacancies
-          </h2>
-        </div>
-
+      <div className='relative z-10 max-w-4xl mx-auto'>
+        <ScrollReveal delay={0.2}>
+          <div className='text-center mt-20'>
+            <h2 className='text-5xl md:text-5xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16'>
+              Open Vacancies
+            </h2>
+          </div>
+        </ScrollReveal>
         <div className='mx-auto max-w-4xl'>
           <div className='space-y-3'>
             {jobs.map((job, i) => (

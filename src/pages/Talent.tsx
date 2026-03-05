@@ -5,6 +5,7 @@ import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import HowItWorksSection from '@/components/HowItWorksSection';
 import CallToActionSection from '@/components/CallToActionSection';
 import GlobalCommunitySection from '@/components/GlobalCommunitySection';
+import ScrollReveal from '@/components/ScrollReveal';
 
 const Talent = () => {
   return (

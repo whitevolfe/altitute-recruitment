@@ -33,19 +33,25 @@ const founders = [
 
 const AboutSection = () => {
   return (
-    <section id='about' className='section-padding'>
-      <div className='max-w-7xl mx-auto'>
+    <section id='about' className='py-24 bg-black relative overflow-hidden'>
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
+        <div className="absolute inset-0 bg-[url('/space-bg.jpg')] bg-cover bg-center opacity-10"></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
+
+      <div className='relative z-10 max-w-7xl mx-auto px-6'>
         <ScrollReveal>
-          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
+          <p className='text-xs tracking-[0.3em] uppercase text-white/70 mb-4 font-body'>
             Who We Are
           </p>
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-8'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-8'>
             About Altitude Group
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={0.15}>
-          <p className='text-muted-foreground font-body font-light text-lg leading-relaxed max-w-3xl mb-20'>
+          <p className='text-white/80 font-body font-light text-lg leading-relaxed max-w-3xl mb-20'>
             Altitude Group connects high-performing professionals with leading
             global businesses. We specialise in executive search, C-suite
             hiring, and industry-specific recruitment across tech, finance,
@@ -54,7 +60,7 @@ const AboutSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.2}>
-          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-10 font-body'>
+          <p className='text-xs tracking-[0.3em] uppercase text-white/70 mb-10 font-body'>
             Leadership
           </p>
         </ScrollReveal>
@@ -76,29 +82,29 @@ const AboutSection = () => {
                     </span>
                   </div>
                 )}
-                <h3 className='font-display text-2xl tracking-wide text-foreground mb-1'>
+                <h3 className='font-display text-2xl tracking-wide text-white mb-1'>
                   {founder.name}
                 </h3>
-                <p className='text-xs tracking-[0.2em] uppercase text-muted-foreground mb-4 font-body'>
+                <p className='text-xs tracking-[0.2em] uppercase text-white/70 mb-4 font-body'>
                   {founder.title}
                 </p>
                 {Array.isArray(founder.bio) ? (
                   founder.bio.map((para, idx) => (
                     <p
                       key={idx}
-                      className='text-muted-foreground font-body font-light leading-relaxed mb-6'
+                      className='text-white/80 font-body font-light leading-relaxed mb-6'
                     >
                       {para}
                     </p>
                   ))
                 ) : (
-                  <p className='text-muted-foreground font-body font-light leading-relaxed mb-6'>
+                  <p className='text-white/80 font-body font-light leading-relaxed mb-6'>
                     {founder.bio}
                   </p>
                 )}
                 <a
                   href={founder.linkedinUrl}
-                  className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors'
+                  className='inline-flex items-center gap-2 text-white/70 hover:text-white transition-colors'
                 >
                   <Linkedin size={18} />
                 </a>

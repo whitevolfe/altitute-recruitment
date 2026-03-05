@@ -35,7 +35,12 @@ const LeadershipSection = () => {
   return (
     <section className='min-h-screen bg-black relative overflow-hidden'>
       {/* Background image with overlay */}
-      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+      <div
+        className='absolute inset-0'
+        style={{
+          background: 'linear-gradient(180deg, #080808 0%, #000000 100%)',
+        }}
+      >
         <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>

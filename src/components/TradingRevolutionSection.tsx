@@ -10,7 +10,7 @@ const TradingRevolutionSection = () => {
       </div>
 
       <div className='relative z-10 max-w-7xl mx-auto px-6 py-20'>
-        <div className='grid lg:grid-cols-2 gap-16 items-center min-h-[70vh]'>
+        <div className='grid lg:grid-cols-2 gap-16 items-center min-h-[50vh]'>
           {/* Left side - Large headline */}
           <ScrollReveal>
             <h2 className='text-5xl md:text-5xl lg:text-5xl font-body text-white leading-tight max-w-1xl'>
