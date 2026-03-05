@@ -1,4 +1,5 @@
 import ScrollReveal from '@/components/ScrollReveal';
+import NumberCounter from '@/components/NumberCounter';
 
 const TradingRevolutionSection = () => {
   return (
@@ -24,48 +25,42 @@ const TradingRevolutionSection = () => {
               <div className='grid gap-6 grid-cols-1 sm:grid-cols-2 max-w-2xl w-full'>
                 {/* Card 1 */}
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
-                  {/* <p className='text-white/70 text-sm uppercase tracking-wider mb-2'>
-                  WE ARE
-                </p> */}
-                  <h3 className='text-3xl font-bold font-body flex justify-center text-white mb-3'>
-                    Candidates
-                  </h3>
-                  <p className='text-white/360 flex justify-center text-xl leading-relaxed'>
-                    2000+
-                  </p>
+                  <NumberCounter
+                    target={2000}
+                    label='Candidates'
+                    duration={2000}
+                    delay={100}
+                  />
                 </div>
 
                 {/* Card 2 */}
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
-                  <h3 className='text-3xl font-bold font-body flex justify-center text-white mb-2'>
-                    Clients
-                  </h3>
-                  <p className='text-white/360 text-xl flex justify-center leading-relaxed'>
-                    50+
-                  </p>
+                  <NumberCounter
+                    target={50}
+                    label='Clients'
+                    duration={1500}
+                    delay={200}
+                  />
                 </div>
 
                 {/* Card 3 */}
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
-                  <h3 className='text-3xl font-bold flex justify-center font-body text-white mb-2'>
-                    Retention Rate
-                  </h3>
-                  {/* <p className='text-white/70 text-sm uppercase tracking-wider mb-1'>
-                  TALENTS RETAINED
-                </p> */}
-                  <p className='text-white/360 text-xl flex justify-center leading-relaxed'>
-                    98%
-                  </p>
+                  <NumberCounter
+                    target={98}
+                    label='Retention Rate'
+                    duration={1800}
+                    delay={300}
+                  />
                 </div>
 
                 {/* Card 4 - Highlight */}
                 <div className='bg-white/5 backdrop-blur-sm border border-red-500/30 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
-                  <h3 className='text-3xl font-bold font-body flex justify-center text-white mb-2'>
-                    Placements
-                  </h3>
-                  <p className='text-white/3600 text-xl flex justify-center leading-relaxed'>
-                    50+
-                  </p>
+                  <NumberCounter
+                    target={50}
+                    label='Placements'
+                    duration={1600}
+                    delay={400}
+                  />
                 </div>
               </div>
             </div>
