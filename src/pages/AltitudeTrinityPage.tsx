@@ -187,12 +187,10 @@ const AltitudeTrinityPage = () => {
                   </div>
 
                   <div>
-                    <Button
-                      variant='hero-outline'
-                      size='lg'
-                      onClick={() => setIsOpen(true)}
-                    >
-                      Book an Altitude Wellness Session
+                    <Button variant='hero-outline' size='lg' asChild>
+                      <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
+                        Book an Altitude Wellness Session
+                      </a>
                     </Button>
 
                     {isOpen && (
@@ -299,13 +297,10 @@ const AltitudeTrinityPage = () => {
                               >
                                 Submit
                               </Button>
-                              <Button
-                                type='button'
-                                variant='outline'
-                                onClick={() => setIsOpen(false)}
-                                className='flex-1'
-                              >
-                                Cancel
+                              <Button variant='hero-outline' size='lg' asChild>
+                                <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
+                                  Book an Altitude Wellness Session
+                                </a>
                               </Button>
                             </div>
                           </form>
