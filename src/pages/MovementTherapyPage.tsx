@@ -20,7 +20,7 @@ const MovementTherapyPage = () => {
           <div className='space-y-16'>
             <ScrollReveal delay={0.1}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   About Rangi
                 </h2>
                 <div className='space-y-6'>
@@ -67,12 +67,12 @@ const MovementTherapyPage = () => {
 
             <ScrollReveal delay={0.2}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   Structure
                 </h2>
                 <div className='space-y-8'>
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
                       Phase 1: Foundation & Introduction
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed mb-3'>
@@ -93,7 +93,7 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
                       Phase 2: Guided Movement Therapy
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed mb-3'>
@@ -125,7 +125,7 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
                       Phase 3: Integration & Reflection
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed mb-3'>
@@ -157,12 +157,12 @@ const MovementTherapyPage = () => {
 
             <ScrollReveal delay={0.3}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   Session Benefits
                 </h2>
                 <div className='grid md:grid-cols-2 gap-6'>
                   <div className='bg-card border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-lg font-body font-semibold text-foreground mb-3'>
                       Individual Benefits
                     </h3>
                     <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
@@ -177,7 +177,7 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='bg-card border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-3'>
+                    <h3 className='text-lg font-body font-semibold text-foreground mb-3'>
                       Team Benefits
                     </h3>
                     <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
@@ -196,18 +196,23 @@ const MovementTherapyPage = () => {
                       </li>
                     </ul>
                   </div>
+                  <h1 className='text-foreground font-body font-light text-lg leading-relaxed'>
+                    “Together, we can unlock new pathways to health,
+                    empowerment, and connection—one step at a time”
+                    <p>-Rangi Fernando</p>
+                  </h1>
                 </div>
               </section>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.4}>
+            {/* <ScrollReveal delay={0.4}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-display font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
                   Session Formats
                 </h2>
                 <div className='space-y-4'>
                   <div className='border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
+                    <h3 className='text-lg font-body font-semibold text-foreground mb-2'>
                       60-Minute Corporate Sessions
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
@@ -218,7 +223,7 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
+                    <h3 className='text-lg font-body font-semibold text-foreground mb-2'>
                       90-Minute Deep Dive Sessions
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
@@ -229,7 +234,7 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
+                    <h3 className='text-lg font-body font-semibold text-foreground mb-2'>
                       Custom Corporate Programs
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
@@ -240,7 +245,7 @@ const MovementTherapyPage = () => {
                   </div>
                 </div>
               </section>
-            </ScrollReveal>
+            </ScrollReveal> */}
           </div>
         </div>
       </main>

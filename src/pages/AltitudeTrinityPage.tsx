@@ -87,58 +87,30 @@ const AltitudeTrinityPage = () => {
             <ScrollReveal delay={0.4}>
               <section>
                 <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
-                  Terms & Inclusions
+                  Session Benefits
                 </h2>
                 <div className='space-y-4'>
-                  <div>
+                  <div className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      The Expert Panel All tiers include the full Triple-Pillar
-                      team:
-                      <ul>
-                        <li>* Psychologist</li>
-                        <li>* Wellness Coach</li>
-                        <li>* Executive Coach</li>
-                      </ul>
+                      - Strengthens workforce performance by aligning
+                      psychological resilience, physical wellbeing,& strategic
+                      clarity.
                     </p>
-                  </div>
-
-                  <div>
-                    {/* <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Confidentiality
-                    </h3> */}
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Performance Reinforcement
-                      <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                        Each participant receives a curated performance gift set
-                        to extend learning beyond the session.
-                      </p>
+                      - Equips employees with practical tools to manage stress,
+                      pressure, and workplace demands.
                     </p>
-                  </div>
-
-                  <div>
-                    {/* <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Customization
-                    </h3> */}
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Legacy Tier Experience Includes:
-                      <ul>
-                        <li>* Exclusive luxury resort venue hire</li>
-                        <li>* Gourmet wellness-focused dining</li>
-                        <li>* Private executive wellness sessions</li>
-                      </ul>
+                      - Enhances focus, decision-making, and cognitive
+                      performance across teams.
                     </p>
-                  </div>
-
-                  <div>
-                    {/* <h3 className='text-lg font-display font-semibold text-foreground mb-2'>
-                      Measurement & Reporting
-                    </h3> */}
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Due to the exclusive nature of venues and program
-                      structure, investment is confirmed following
-                      <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                        a private discovery consultation.
-                      </p>
+                      - Elevates employee engagement, morale, and organizational
+                      culture.
+                    </p>
+                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                      - Delivers high-impact insights from three
+                      industry-recognized experts in a single experience.
                     </p>
                   </div>
                 </div>
@@ -152,31 +124,42 @@ const AltitudeTrinityPage = () => {
                 <div className='space-y-6'>
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
-                      Consultation
+                      Requirement Submission
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      A focused discovery call to identify organizational
-                      pressure points and workforce risk indicators.
+                      Employers submit their workforce requirements with
+                      detailed job specifications and expectations.
                     </p>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
-                      Tailoring
+                      Candidate Screening
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      The expert panel customizes content aligned with industry
-                      demands and leadership dynamics.
+                      Our recruitment team carefully screens, verifies, and
+                      shortlists qualified candidates.
                     </p>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
-                      Execution
+                      Interview & Selection
                     </h3>
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Seamless, professionally managed delivery with minimal
-                      operational disruption.
+                      We coordinate interviews, assessments, and employer
+                      evaluations to finalize selections.
+                    </p>
+                  </div>
+
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                      Deployment
+                    </h3>
+                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                      Successful candidates complete documentation and are
+                      deployed in full compliance with international
+                      regulations.
                     </p>
                   </div>
 
