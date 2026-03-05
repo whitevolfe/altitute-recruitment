@@ -11,9 +11,9 @@ const AltitudeTrinityPage = () => {
     <div className='min-h-screen bg-background'>
       <Header />
       <main className='section-padding'>
-        <div className='max-w-4xl mx-auto'>
+        <div className='max-w-4xl mx-auto '>
           <ScrollReveal>
-            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-6'>
+            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-6 -ml-4'>
               The Altitude Trinity
             </h1>
             <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16 font-body'>

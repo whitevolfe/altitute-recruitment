@@ -77,7 +77,10 @@ const Header = () => {
                   <DropdownMenuContent>
                     {link.dropdown.map((item) => (
                       <DropdownMenuItem key={item.href} asChild>
-                        <Link to={item.href} className='w-full'>
+                        <Link
+                          to={item.href}
+                          className='w-full text-xs tracking-[0.12em]'
+                        >
                           {item.label}
                         </Link>
                       </DropdownMenuItem>
