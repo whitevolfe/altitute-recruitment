@@ -10,8 +10,17 @@ const JobsSection = () => {
   const [openId, setOpenId] = useState<string | null>(null);
 
   return (
-    <section id='careers' className='section-padding bg-transparent'>
-      <div className='max-w-4xl'>
+    <section
+      id='careers'
+      className='section-padding bg-black relative overflow-hidden'
+    >
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
+
+      <div className='relative z-10 max-w-4xl'>
         <ScrollReveal>
           <p className='text-3xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-5'>
             Altitude Talent
@@ -54,13 +63,13 @@ const JobsSection = () => {
             that every placement is strategically aligned with business vision.
           </p> */}
           <br />
-
-          <div className='mx-auto max-w-4xl'>
-            <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16 flex items-center justify-center'>
-              Open Vacancies
-            </h2>
-          </div>
         </ScrollReveal>
+
+        <div className='mx-auto max-w-4xl'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16 flex items-center justify-center'>
+            Open Vacancies
+          </h2>
+        </div>
 
         <div className='mx-auto max-w-4xl'>
           <div className='space-y-3'>

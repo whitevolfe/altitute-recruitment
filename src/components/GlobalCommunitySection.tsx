@@ -49,8 +49,14 @@ const GlobalCommunitySection = () => {
   };
 
   return (
-    <section className='section-padding'>
-      <div className='max-w-7xl mx-auto'>
+    <section className='section-padding bg-black relative overflow-hidden'>
+      {/* Background image with overlay */}
+      <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
+        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
+      </div>
+
+      <div className='relative z-10 max-w-7xl mx-auto'>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

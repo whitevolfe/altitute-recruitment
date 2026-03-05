@@ -148,7 +148,7 @@ const TestimonialsSection = () => {
       className='py-24 bg-black relative overflow-hidden'
     >
       {/* Background image with overlay */}
-      <div className='absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+      <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
         <div className="absolute inset-0 bg-[url('/space-bg.jpg')] bg-cover bg-center opacity-10"></div>
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>
@@ -203,9 +203,9 @@ const TestimonialsSection = () => {
                         <p className='text-white font-body font-medium text-sm truncate'>
                           {testimonial.name}
                         </p>
-                        <p className='text-xs text-white/70 font-body truncate'>
+                        {/* <p className='text-xs text-white/70 font-body truncate'>
                           {testimonial.company}
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>

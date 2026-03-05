@@ -15,7 +15,7 @@ const Talent = () => {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>
 
-      <div className='relative z-10 absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black'>
+      <div className='relative z-10'>
         <Header />
 
         <main>
