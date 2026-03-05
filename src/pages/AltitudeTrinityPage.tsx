@@ -8,15 +8,15 @@ const AltitudeTrinityPage = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-white'>
       <Header />
       <main className='section-padding'>
         <div className='max-w-4xl mx-auto '>
           <ScrollReveal>
-            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-6 '>
+            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6 '>
               The Altitude Trinity
             </h1>
-            <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16 font-body'>
+            <p className='text-xs tracking-[0.3em] uppercase text-black mb-16 font-body'>
               Triple Pillar Methodology
             </p>
           </ScrollReveal>
@@ -24,10 +24,10 @@ const AltitudeTrinityPage = () => {
           <div className='space-y-16'>
             <ScrollReveal delay={0.1}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   The Mission
                 </h2>
-                <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
+                <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
                   To retain high-performing talent by strengthening the mental,
                   physical, and leadership foundations that sustain long-term
                   performance. Altitude Wellness protects organizations from
@@ -46,10 +46,10 @@ const AltitudeTrinityPage = () => {
 
             <ScrollReveal delay={0.2}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   The Business Imperative
                 </h2>
-                <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
+                <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
                   <p>
                     EMPLOYER BRAND POSITIONING : Signal to top-tier talent that
                     your organization invests in long-term human mastery.
@@ -86,29 +86,29 @@ const AltitudeTrinityPage = () => {
 
             <ScrollReveal delay={0.4}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   Session Benefits
                 </h2>
                 <div className='space-y-4'>
-                  <div className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                  <div className='text-black font-body font-light text-lg leading-relaxed mb-4'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       - Strengthens workforce performance by aligning
                       psychological resilience, physical wellbeing,& strategic
                       clarity.
                     </p>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       - Equips employees with practical tools to manage stress,
                       pressure, and workplace demands.
                     </p>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       - Enhances focus, decision-making, and cognitive
                       performance across teams.
                     </p>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       - Elevates employee engagement, morale, and organizational
                       culture.
                     </p>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       - Delivers high-impact insights from three
                       industry-recognized experts in a single experience.
                     </p>
@@ -118,45 +118,45 @@ const AltitudeTrinityPage = () => {
             </ScrollReveal>
             <ScrollReveal delay={0.3}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   The Process
                 </h2>
                 <div className='space-y-6'>
-                  <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                  <div className='border-l-4 border-secondary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Requirement Submission
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       Employers submit their workforce requirements with
                       detailed job specifications and expectations.
                     </p>
                   </div>
 
-                  <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                  <div className='border-l-4 border-secondary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Candidate Screening
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       Our recruitment team carefully screens, verifies, and
                       shortlists qualified candidates.
                     </p>
                   </div>
 
-                  <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                  <div className='border-l-4 border-secondary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Interview & Selection
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       We coordinate interviews, assessments, and employer
                       evaluations to finalize selections.
                     </p>
                   </div>
 
-                  <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                  <div className='border-l-4 border-secondary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Deployment
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                    <p className='text-black font-body font-light leading-relaxed'>
                       Successful candidates complete documentation and are
                       deployed in full compliance with international
                       regulations.
@@ -164,13 +164,13 @@ const AltitudeTrinityPage = () => {
                   </div>
 
                   <div>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed ml-6'>
+                    <p className='text-black font-body font-light leading-relaxed ml-6'>
                       Your workforce is your greatest asset. Strengthen it!
                     </p>
                   </div>
 
                   <div>
-                    <Button variant='hero-outline' size='lg' asChild>
+                    <Button variant='hero' size='lg' asChild>
                       <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
                         Book an Altitude Wellness Session
                       </a>
@@ -280,7 +280,7 @@ const AltitudeTrinityPage = () => {
                               >
                                 Submit
                               </Button>
-                              <Button variant='hero-outline' size='lg' asChild>
+                              <Button variant='hero' size='lg' asChild>
                                 <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
                                   Book an Altitude Wellness Session
                                 </a>
