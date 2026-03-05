@@ -4,15 +4,15 @@ import ScrollReveal from '@/components/ScrollReveal';
 
 const MovementTherapyPage = () => {
   return (
-    <div className='min-h-screen bg-background'>
+    <div className='min-h-screen bg-white'>
       <Header />
       <main className='section-padding'>
         <div className='max-w-4xl mx-auto'>
           <ScrollReveal>
-            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-6'>
+            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6'>
               Movement Therapy by Rangi Fernando
             </h1>
-            <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16 font-body'>
+            <p className='text-xs tracking-[0.3em] uppercase text-black mb-16 font-body'>
               Resilience through Movement
             </p>
           </ScrollReveal>
@@ -20,11 +20,11 @@ const MovementTherapyPage = () => {
           <div className='space-y-16'>
             <ScrollReveal delay={0.1}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   About Rangi
                 </h2>
                 <div className='space-y-6'>
-                  <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
+                  <p className='text-black font-body font-light text-lg leading-relaxed'>
                     Rangi Fernando is a globally recognized Sri Lankan dance
                     movement therapist based in Germany, specializing in the
                     transformative power of intentional movement for corporate
@@ -35,7 +35,7 @@ const MovementTherapyPage = () => {
                     wellness programs.
                   </p>
 
-                  <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
+                  <p className='text-black font-body font-light text-lg leading-relaxed'>
                     Her approach combines traditional Sri Lankan movement
                     practices with contemporary dance therapy techniques,
                     creating unique interventions that address both individual
@@ -44,7 +44,7 @@ const MovementTherapyPage = () => {
                     of movement in emotional regulation and stress management.
                   </p>
 
-                  <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
+                  <p className='text-black font-body font-light text-lg leading-relaxed'>
                     As a certified dance movement therapist and mindfulness
                     practitioner, Rangi brings a unique perspective to corporate
                     wellness, recognizing that sustainable performance requires
@@ -54,7 +54,7 @@ const MovementTherapyPage = () => {
                     environments.
                   </p>
 
-                  <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
+                  <p className='text-black font-body font-light text-lg leading-relaxed'>
                     Rangi's methodology emphasizes the body's innate wisdom and
                     its capacity for self-regulation. Through guided movement
                     experiences, participants learn to access their body's
@@ -67,19 +67,19 @@ const MovementTherapyPage = () => {
 
             <ScrollReveal delay={0.2}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   Structure
                 </h2>
                 <div className='space-y-8'>
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Phase 1: Foundation & Introduction
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed mb-3'>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
                       Overview of session goals and introduction to Dance
                       Movement Therapy principles.
                     </p>
-                    <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
                       <li>
                         • Gentle stretching sequences to release physical
                         tension
@@ -93,14 +93,14 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Phase 2: Guided Movement Therapy
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed mb-3'>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
                       Core therapeutic interventions focused on stress relief,
                       emotional expression, and team cohesion.
                     </p>
-                    <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
                       <li>
                         • Guided movement sequences for stress release and
                         emotional processing
@@ -125,14 +125,14 @@ const MovementTherapyPage = () => {
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-foreground mb-3'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
                       Phase 3: Integration & Reflection
                     </h3>
-                    <p className='text-muted-foreground font-body font-light leading-relaxed mb-3'>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
                       Facilitated discussion and relaxation practices to
                       integrate insights into daily work life.
                     </p>
-                    <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
                       <li>
                         • Group sharing and reflection on movement experiences
                       </li>
@@ -157,15 +157,15 @@ const MovementTherapyPage = () => {
 
             <ScrollReveal delay={0.3}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-foreground mb-6'>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   Session Benefits
                 </h2>
                 <div className='grid md:grid-cols-2 gap-6'>
-                  <div className='bg-card border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-body font-semibold text-foreground mb-3'>
+                  <div className='border border-border p-6 rounded-lg'>
+                    <h3 className='text-lg font-body font-semibold text-black mb-3'>
                       Individual Benefits
                     </h3>
-                    <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
                       <li>• Reduced stress and anxiety levels</li>
                       <li>• Enhanced emotional regulation</li>
                       <li>• Improved body awareness and mindfulness</li>
@@ -176,11 +176,11 @@ const MovementTherapyPage = () => {
                     </ul>
                   </div>
 
-                  <div className='bg-card border border-border p-6 rounded-lg'>
-                    <h3 className='text-lg font-body font-semibold text-foreground mb-3'>
+                  <div className=' border border-border p-6 rounded-lg'>
+                    <h3 className='text-lg font-body font-semibold text-black mb-3'>
                       Team Benefits
                     </h3>
-                    <ul className='text-muted-foreground font-body font-light leading-relaxed space-y-2'>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
                       <li>• Strengthened team cohesion and trust</li>
                       <li>
                         • Improved communication through non-verbal expression
@@ -196,7 +196,7 @@ const MovementTherapyPage = () => {
                       </li>
                     </ul>
                   </div>
-                  <h1 className='text-foreground font-body font-light text-lg leading-relaxed'>
+                  <h1 className='text-black font-body font-light text-lg leading-relaxed'>
                     “Together, we can unlock new pathways to health,
                     empowerment, and connection—one step at a time”
                     <p>-Rangi Fernando</p>
