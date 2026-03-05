@@ -107,9 +107,11 @@ const AltitudeTrinityPage = () => {
                       Confidentiality
                     </h3> */}
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Performance Reinforcement Each participant receives a
-                      curated performance gift set to extend learning beyond the
-                      session.
+                      Performance Reinforcement
+                      <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                        Each participant receives a curated performance gift set
+                        to extend learning beyond the session.
+                      </p>
                     </p>
                   </div>
 
@@ -133,8 +135,10 @@ const AltitudeTrinityPage = () => {
                     </h3> */}
                     <p className='text-muted-foreground font-body font-light leading-relaxed'>
                       Due to the exclusive nature of venues and program
-                      structure, investment is confirmed following a private
-                      discovery consultation.
+                      structure, investment is confirmed following
+                      <p className='text-muted-foreground font-body font-light leading-relaxed'>
+                        a private discovery consultation.
+                      </p>
                     </p>
                   </div>
                 </div>
@@ -176,12 +180,9 @@ const AltitudeTrinityPage = () => {
                     </p>
                   </div>
 
-                  <div className='border-l-4 border-primary pl-6'>
-                    {/* <h3 className='text-xl font-display font-semibold text-foreground mb-3'>
-                      Phase 4: Integration & Sustainment
-                    </h3> */}
-                    <p className='text-muted-foreground font-body font-light leading-relaxed'>
-                      Your workforce is your greatest asset. Strengthen it
+                  <div>
+                    <p className='text-muted-foreground font-body font-light leading-relaxed ml-6'>
+                      Your workforce is your greatest asset. Strengthen it!
                     </p>
                   </div>
 
@@ -191,8 +192,7 @@ const AltitudeTrinityPage = () => {
                       size='lg'
                       onClick={() => setIsOpen(true)}
                     >
-                      Build the team that builds your company Speak to a Talent
-                      Partner
+                      Book an Altitude Wellness Session
                     </Button>
 
                     {isOpen && (
