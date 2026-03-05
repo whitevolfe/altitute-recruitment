@@ -13,7 +13,7 @@ const AltitudeTrinityPage = () => {
       <main className='section-padding'>
         <div className='max-w-4xl mx-auto '>
           <ScrollReveal>
-            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-6 -ml-4'>
+            <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-6 '>
               The Altitude Trinity
             </h1>
             <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-16 font-body'>
@@ -50,13 +50,23 @@ const AltitudeTrinityPage = () => {
                   The Business Imperative
                 </h2>
                 <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
-                  EMPLOYER BRAND POSITIONING : Signal to top-tier talent that
-                  your organization invests in long-term human mastery.
-                  PERFORMANCE OPTIMIZATION : Shift teams from presenteeism to
-                  peak operational state. DECISION INTEGRITY : Protect cognitive
-                  reserves in leadership during high-stakes periods. TALENT
-                  RETENTION : Reduce the high financial and cultural cost of
-                  burnout-driven attrition.
+                  <p>
+                    EMPLOYER BRAND POSITIONING : Signal to top-tier talent that
+                    your organization invests in long-term human mastery.
+                  </p>
+                  <p>
+                    PERFORMANCE OPTIMIZATION : Shift teams from presenteeism to
+                    peak operational state.{' '}
+                  </p>
+                  <p>
+                    DECISION INTEGRITY : Protect cognitive reserves in
+                    leadership during high-stakes periods.
+                  </p>
+
+                  <p>
+                    TALENT RETENTION : Reduce the high financial and cultural
+                    cost of burnout-driven attrition.
+                  </p>
                 </p>
                 {/* <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
                   Research consistently demonstrates that employee wellbeing

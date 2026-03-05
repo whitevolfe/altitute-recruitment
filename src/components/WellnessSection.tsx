@@ -83,10 +83,10 @@ const WellnessSection = () => {
           {packages.map((pkg, i) => (
             <ScrollReveal key={pkg.name} delay={0.15 + i * 0.1}>
               <div className='border border-border p-8 md:p-10 flex flex-col h-full hover:border-foreground/20 transition-colors duration-500'>
-                <h3 className='font-body font-bold text-2xl tracking-wide text-black px-4 py-2 mb-3'>
+                <h3 className='font-body font-bold text-2xl tracking-wide text-black px-4 py-2 mb-3 -ml-4'>
                   {pkg.name}
                 </h3>
-                <p className='text-xs tracking-[0.2em] uppercase text-black mb-3 font-body'>
+                <p className='text-xs tracking-[0.2em] uppercase text-black mb-3 font-body italic'>
                   {pkg.subtitle}
                 </p>
                 <p className='text-black font-body font-light mb-6'>
