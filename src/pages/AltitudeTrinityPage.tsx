@@ -51,20 +51,20 @@ const AltitudeTrinityPage = () => {
                 </h2>
                 <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
                   <p>
-                    EMPLOYER BRAND POSITIONING : Signal to top-tier talent that
+                    Employer Brand Positioning : Signal to top-tier talent that
                     your organization invests in long-term human mastery.
                   </p>
                   <p>
-                    PERFORMANCE OPTIMIZATION : Shift teams from presenteeism to
+                    Performance Optimization : Shift teams from presenteeism to
                     peak operational state.{' '}
                   </p>
                   <p>
-                    DECISION INTEGRITY : Protect cognitive reserves in
+                    Desision Integrity : Protect cognitive reserves in
                     leadership during high-stakes periods.
                   </p>
 
                   <p>
-                    TALENT RETENTION : Reduce the high financial and cultural
+                    Talent Retention : Reduce the high financial and cultural
                     cost of burnout-driven attrition.
                   </p>
                 </p>
@@ -83,8 +83,149 @@ const AltitudeTrinityPage = () => {
                 </p> */}
               </section>
             </ScrollReveal>
+            <ScrollReveal delay={0.2}>
+              <section>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
+                  Structure
+                </h2>
+                <div className='space-y-8'>
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 1: Foundation & Introduction
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      Overview of session goals and introduction to Dance
+                      Movement Therapy principles.
+                    </p>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
+                      <li>
+                        • Gentle stretching sequences to release physical
+                        tension
+                      </li>
+                      <li>• Breathwork exercises for grounding and presence</li>
+                      <li>
+                        • Introduction to movement as a form of self-expression
+                      </li>
+                      <li>• Establishing group safety and trust protocols</li>
+                    </ul>
+                  </div>
 
-            <ScrollReveal delay={0.4}>
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 2: Guided Movement Therapy
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      Core therapeutic interventions focused on stress relief,
+                      emotional expression, and team cohesion.
+                    </p>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
+                      <li>
+                        • Guided movement sequences for stress release and
+                        emotional processing
+                      </li>
+                      <li>
+                        • Partner and group exercises to build interpersonal
+                        connection
+                      </li>
+                      <li>
+                        • Improvisational movement to explore personal
+                        narratives
+                      </li>
+                      <li>
+                        • Rhythmic exercises to synchronize group energy and
+                        foster cohesion
+                      </li>
+                      <li>
+                        • Movement metaphors for workplace challenges and
+                        resilience
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 3: Integration & Reflection
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      Facilitated discussion and relaxation practices to
+                      integrate insights into daily work life.
+                    </p>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
+                      <li>
+                        • Group sharing and reflection on movement experiences
+                      </li>
+                      <li>
+                        • Deep relaxation and guided imagery for restoration
+                      </li>
+                      <li>
+                        • Practical applications for workplace stress management
+                      </li>
+                      <li>
+                        • Integration exercises to bring movement awareness into
+                        daily routines
+                      </li>
+                      <li>
+                        • Closing rituals to honor the group's shared experience
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            </ScrollReveal>
+
+            <ScrollReveal delay={0.3}>
+              <section>
+                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
+                  Session Benefits
+                </h2>
+                <div className='grid md:grid-cols-2 gap-6'>
+                  <div className='border border-border p-6 rounded-lg'>
+                    <h3 className='text-lg font-body font-semibold text-black mb-3'>
+                      Individual Benefits
+                    </h3>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
+                      <li>• Reduced stress and anxiety levels</li>
+                      <li>• Enhanced emotional regulation</li>
+                      <li>• Improved body awareness and mindfulness</li>
+                      <li>• Increased self-confidence and self-expression</li>
+                      <li>
+                        • Better work-life balance through movement practices
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div className=' border border-border p-6 rounded-lg'>
+                    <h3 className='text-lg font-body font-semibold text-black mb-3'>
+                      Team Benefits
+                    </h3>
+                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
+                      <li>• Strengthened team cohesion and trust</li>
+                      <li>
+                        • Improved communication through non-verbal expression
+                      </li>
+                      <li>
+                        • Enhanced empathy and understanding among colleagues
+                      </li>
+                      <li>
+                        • Collective stress reduction and emotional support
+                      </li>
+                      <li>
+                        • Shared language for discussing workplace challenges
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                {/* <div className='flex items-center justify-center'>
+                  <h1 className='text-black font-body font-bold text-lg leading-relaxed mt-10'>
+                    “Together, we can unlock new pathways to health,
+                    empowerment, and connection—one step at a time”
+                    <p>-Rangi Fernando</p>
+                  </h1>
+                </div> */}
+              </section>
+            </ScrollReveal>
+
+            {/* <ScrollReveal delay={0.4}>
               <section>
                 <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
                   Session Benefits
@@ -115,7 +256,7 @@ const AltitudeTrinityPage = () => {
                   </div>
                 </div>
               </section>
-            </ScrollReveal>
+            </ScrollReveal> */}
             <ScrollReveal delay={0.3}>
               <section>
                 <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
@@ -163,8 +304,8 @@ const AltitudeTrinityPage = () => {
                     </p>
                   </div>
 
-                  <div>
-                    <p className='text-black font-body font-light leading-relaxed ml-6'>
+                  <div className='flex items-center justify-center'>
+                    <p className='text-black font-body font-bold italic leading-relaxed ml-6'>
                       Your workforce is your greatest asset. Strengthen it!
                     </p>
                   </div>

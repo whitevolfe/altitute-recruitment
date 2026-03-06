@@ -41,41 +41,43 @@ const WellnessSection = () => {
           <p className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6'>
             Altitude Wellness
           </p>
+        </ScrollReveal>
+
+        <div className='max-w-3xl  ml-14'>
           <h2 className='text-xs tracking-[0.3em] uppercase text-black mb-4 font-body'>
             Corporate Wellbeing
           </h2>
-        </ScrollReveal>
-
-        <ScrollReveal delay={0.1}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
-            We believe high performance starts with wellbeing. Our wellness
-            division delivers tailored programmes that support employee health,
-            reduce burnout, and create thriving workplace cultures.
-          </p>
-        </ScrollReveal>
-        <ScrollReveal delay={0.15}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
-            Through years of engagement with both candidates and corporate
-            leaders, a consistent theme emerged: performance expectations were
-            rising, yet structured and impactful wellbeing strategies were
-            largely absent.
-          </p>
-        </ScrollReveal>
-        <ScrollReveal delay={0.1}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
-            In response, Altitude Wellness was formed as a premier corporate
-            wellness platform built on a high impact proprietary Three Pillar
-            Methodology.
-          </p>
-        </ScrollReveal>
-        <ScrollReveal delay={0.15}>
-          <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
-            The program integrates psychology, practical wellness and leadership
-            insight frameworks to help organizations build resilient,
-            high-performing teams. Its approach is structured, measurable and
-            designed for lasting impact.
-          </p>
-        </ScrollReveal>
+          <ScrollReveal delay={0.1}>
+            <p className='text-black font-body font-light text-lg leading-relaxed mb-3 '>
+              We believe high performance starts with wellbeing. Our wellness
+              division delivers tailored programmes that support employee
+              health, reduce burnout, and create thriving workplace cultures.
+            </p>
+          </ScrollReveal>
+          <ScrollReveal delay={0.15}>
+            <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
+              Through years of engagement with both candidates and corporate
+              leaders, a consistent theme emerged: performance expectations were
+              rising, yet structured and impactful wellbeing strategies were
+              largely absent.
+            </p>
+          </ScrollReveal>
+          <ScrollReveal delay={0.1}>
+            <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
+              In response, Altitude Wellness was formed as a premier corporate
+              wellness platform built on a high impact proprietary Three Pillar
+              Methodology.
+            </p>
+          </ScrollReveal>
+          <ScrollReveal delay={0.15}>
+            <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
+              The program integrates psychology, practical wellness and
+              leadership insight frameworks to help organizations build
+              resilient, high-performing teams. Its approach is structured,
+              measurable and designed for lasting impact.
+            </p>
+          </ScrollReveal>
+        </div>
 
         <br />
 
@@ -96,7 +98,7 @@ const WellnessSection = () => {
                   {pkg.features.map((f) => (
                     <li
                       key={f}
-                      className='flex items-start gap-3 text-sm text-black font-body'
+                      className='flex items-start gap-3 text-md text-black font-body'
                     >
                       <Check size={16} className='text-black mt-0.5 shrink-0' />
                       {f}

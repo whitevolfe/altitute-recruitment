@@ -196,7 +196,9 @@ const MovementTherapyPage = () => {
                       </li>
                     </ul>
                   </div>
-                  <h1 className='text-black font-body font-light text-lg leading-relaxed'>
+                </div>
+                <div className='flex items-center justify-center'>
+                  <h1 className='text-black font-body font-bold text-lg leading-relaxed mt-10'>
                     “Together, we can unlock new pathways to health,
                     empowerment, and connection—one step at a time”
                     <p>-Rangi Fernando</p>
