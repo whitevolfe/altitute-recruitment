@@ -27,7 +27,7 @@ const NumberCounter = ({
 
   return (
     <div ref={ref} className={`transition-all duration-300 ${className}`}>
-      <h3 className='text-3xl font-body flex justify-center text-white mb-2'>
+      <h3 className='text-1xl font-body flex justify-center text-white mb-2'>
         {label}
       </h3>
 

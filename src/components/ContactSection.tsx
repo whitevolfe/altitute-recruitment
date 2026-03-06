@@ -138,7 +138,7 @@ const ContactSection = () => {
             <div className='space-y-8'>
               <div>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  Contact Details
+                  CONTACT DETAILS
                 </h3>
                 <div className='space-y-6'>
                   <a
@@ -157,7 +157,7 @@ const ContactSection = () => {
 
               <div>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  Connect
+                  CONNECT
                 </h3>
                 <div className='space-x-6'>
                   <a
@@ -178,6 +178,32 @@ const ContactSection = () => {
                   >
                     <Facebook size={18} strokeWidth={1.5} />
                   </a>
+                </div>
+              </div>
+
+              <div>
+                <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
+                  ALTITUDE WELLNESS
+                </h3>
+                <div className='space-x-6'>
+                  <a
+                    href='https://www.linkedin.com/company/altitude-wellness-srilanka/'
+                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                  >
+                    <Linkedin size={18} strokeWidth={1.5} />
+                  </a>
+                  <a
+                    href='https://www.instagram.com/altitudewellness_sl/'
+                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                  >
+                    <Instagram size={18} strokeWidth={1.5} />
+                  </a>
+                  {/* <a
+                    href='https://web.facebook.com/recruiteraltitudetalent'
+                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                  >
+                    <Facebook size={18} strokeWidth={1.5} />
+                  </a> */}
                 </div>
               </div>
 
