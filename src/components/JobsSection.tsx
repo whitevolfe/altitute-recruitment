@@ -5,6 +5,9 @@ import { Button } from '@/components/ui/button';
 import ScrollReveal from '@/components/ScrollReveal';
 import { jobs } from '@/data/jobs';
 import GlobalCommunitySection from './GlobalCommunitySection';
+import WhyChooseUsSection from './WhyChooseUsSection';
+import HowItWorksSection from './HowItWorksSection';
+import ConsultationModal from './ConsultationModal';
 
 const JobsSection = () => {
   const [openId, setOpenId] = useState<string | null>(null);
@@ -57,6 +60,9 @@ const JobsSection = () => {
           </div>
         </ScrollReveal>
       </div>
+      <WhyChooseUsSection />
+      <HowItWorksSection />
+      <GlobalCommunitySection />
 
       <div className='relative z-10 max-w-4xl mx-auto'>
         <ScrollReveal delay={0.2}>
@@ -143,6 +149,11 @@ const JobsSection = () => {
                 </div>
               </ScrollReveal>
             ))}
+          </div>
+          <div className='mt-10'>
+            <Button variant='hero' size='lg'>
+              Hire With Us
+            </Button>
           </div>
         </div>
       </div>

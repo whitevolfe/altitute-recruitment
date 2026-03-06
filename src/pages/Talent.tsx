@@ -22,10 +22,7 @@ const Talent = () => {
         <main>
           <JobsSection />
         </main>
-        <WhyChooseUsSection />
-        <HowItWorksSection />
-        <GlobalCommunitySection />
-        {/* <CallToActionSection /> */}
+
         <Footer />
       </div>
     </div>

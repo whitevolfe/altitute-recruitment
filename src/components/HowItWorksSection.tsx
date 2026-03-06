@@ -44,11 +44,8 @@ const HowItWorksSection = () => {
       <div className='relative z-10 max-w-7xl mx-auto'>
         <ScrollReveal>
           <div className='mb-16'>
-            <p className='text-white/60 text-xs tracking-[0.3em] uppercase font-body mb-4'>
-              OUR PROCESS <span className='text-white/40'>—</span>
-            </p>
             <h2 className='text-5xl md:text-7xl font-body font-bold text-white mb-8'>
-              How it works, step by step
+              OUR PROCESS
             </h2>
             <div className='border-t border-white/20 w-full'></div>
           </div>
