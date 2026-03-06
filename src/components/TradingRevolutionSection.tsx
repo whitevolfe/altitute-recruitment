@@ -54,7 +54,7 @@ const TradingRevolutionSection = () => {
                 </div>
 
                 {/* Card 4 - Highlight */}
-                <div className='bg-white/5 backdrop-blur-sm border border-red-500/30 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
+                <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
                   <NumberCounter
                     target={50}
                     label='Placements'
