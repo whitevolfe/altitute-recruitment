@@ -7,6 +7,7 @@ interface NumberCounterProps {
   delay?: number;
   decimals?: number;
   className?: string;
+  suffix?: string;
 }
 
 const NumberCounter = ({
@@ -16,6 +17,7 @@ const NumberCounter = ({
   delay = 0,
   decimals = 0,
   className = '',
+  suffix = '+',
 }: NumberCounterProps) => {
   const { formattedValue, ref, isAnimating } = useNumberAnimation(target, {
     duration,
@@ -30,7 +32,8 @@ const NumberCounter = ({
       </h3>
 
       <p className='text-white/60 text-xl flex justify-center leading-relaxed'>
-        {isAnimating ? formattedValue : '0'}+
+        {isAnimating ? formattedValue : '0'}
+        {suffix}
       </p>
     </div>
   );

@@ -50,6 +50,8 @@ const TradingRevolutionSection = () => {
                     label='Retention Rate'
                     duration={1800}
                     delay={300}
+                    decimals={0}
+                    suffix='%'
                   />
                 </div>
 
