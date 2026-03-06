@@ -305,17 +305,24 @@ const AltitudeTrinityPage = () => {
                   </div>
 
                   <div className='flex items-center justify-center'>
-                    <p className='text-black font-body font-bold italic leading-relaxed ml-6'>
+                    <p className='text-black font-body font-light italic leading-relaxed ml-6'>
                       Your workforce is your greatest asset. Strengthen it!
                     </p>
                   </div>
 
                   <div>
-                    <Button variant='hero' size='lg' asChild>
-                      <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
-                        Book an Altitude Wellness Session
-                      </a>
-                    </Button>
+                    <div className='flex alignitems-center justify-center'>
+                      <Button
+                        variant='hero'
+                        size='lg'
+                        asChild
+                        className='bg-black text-white '
+                      >
+                        <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
+                          Book an Altitude Wellness Session
+                        </a>
+                      </Button>
+                    </div>
 
                     {isOpen && (
                       <div className='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50'>

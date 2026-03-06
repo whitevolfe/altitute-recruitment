@@ -14,7 +14,7 @@ const TradingRevolutionSection = () => {
         <div className='grid lg:grid-cols-2 gap-16 items-center min-h-[50vh]'>
           {/* Left side - Large headline */}
           <ScrollReveal>
-            <h2 className='text-5xl md:text-5xl lg:text-5xl font-body text-white leading-tight max-w-1xl'>
+            <h2 className='text-3xl text-left px-10 ml-9 md:text-3xl lg:text-3xl font-body text-white leading-tight max-w-1xl'>
               Revolutionizing Human Capital and Corporate Performance Advisory
             </h2>
           </ScrollReveal>
@@ -27,7 +27,7 @@ const TradingRevolutionSection = () => {
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
                   <NumberCounter
                     target={2000}
-                    label='Candidates'
+                    label='CANDIDATES'
                     duration={2000}
                     delay={100}
                   />
@@ -37,7 +37,7 @@ const TradingRevolutionSection = () => {
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
                   <NumberCounter
                     target={50}
-                    label='Clients'
+                    label='CLIENTS'
                     duration={1500}
                     delay={200}
                   />
@@ -47,7 +47,7 @@ const TradingRevolutionSection = () => {
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
                   <NumberCounter
                     target={98}
-                    label='Retention Rate'
+                    label='RETENTION RATE'
                     duration={1800}
                     delay={300}
                     decimals={0}
@@ -59,7 +59,7 @@ const TradingRevolutionSection = () => {
                 <div className='bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-4 hover:transform hover:scale-105 transition-all duration-300'>
                   <NumberCounter
                     target={50}
-                    label='Placements'
+                    label='PLACEMENTS'
                     duration={1600}
                     delay={400}
                   />

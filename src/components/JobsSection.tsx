@@ -23,7 +23,7 @@ const JobsSection = () => {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>
 
-      <div className='relative z-10 max-w-4xl'>
+      <div className='relative z-10 max-w-6xl'>
         <ScrollReveal>
           <p className='text-3xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-5'>
             Altitude Talent
@@ -31,7 +31,7 @@ const JobsSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <div className='max-w-3xl mx-auto space-y-6'>
+          <div className='max-w-6xl ml-14 space-y-4'>
             <p className='text-white/80 font-body font-light text-lg text-lg leading-relaxed'>
               The Group's first initiative, Altitude Talent, was launched as a
               strategic executive search and talent advisory firm dedicated to
@@ -62,7 +62,7 @@ const JobsSection = () => {
       </div>
       <WhyChooseUsSection />
       <HowItWorksSection />
-      <GlobalCommunitySection />
+      {/* <GlobalCommunitySection /> */}
 
       <div className='relative z-10 max-w-4xl mx-auto'>
         <ScrollReveal delay={0.2}>
@@ -151,7 +151,7 @@ const JobsSection = () => {
             ))}
           </div>
           <div className='mt-10 flex items-center justify-center'>
-            <Button variant='hero' size='cta'>
+            <Button variant='hero' size='lg'>
               Hire With Us
             </Button>
           </div>
