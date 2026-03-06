@@ -65,14 +65,14 @@ const HowItWorksSection = () => {
                     {/* Step indicator */}
                     <div className='flex items-center gap-3 mb-4'>
                       <div className='w-2 h-2 bg-green-400 rounded-full'></div>
-                      <span className='text-green-400 text-sm font-bold tracking-widest uppercase'>
+                      <span className='text-white-400 text-sm font-bold tracking-widest uppercase'>
                         {step.number}
                       </span>
                     </div>
 
                     {/* Content */}
                     <div>
-                      <h3 className='text-xl font-body font-semibold text-white mb-3 group-hover:text-green-400 transition-colors duration-300 flex items-center gap-2'>
+                      <h3 className='text-xl font-body font-semibold text-white mb-3 group-hover:text-white-400 transition-colors duration-300 flex items-center gap-2'>
                         <Icon size={16} className='text-white/40' />
                         {step.title}
                       </h3>
@@ -96,15 +96,15 @@ const HowItWorksSection = () => {
                 <div className='group'>
                   {/* Step indicator */}
                   <div className='flex items-center gap-3 mb-4'>
-                    <div className='w-2 h-2 bg-green-400 rounded-full'></div>
-                    <span className='text-green-400 text-sm font-bold tracking-widest uppercase'>
+                    <div className='w-2 h-2 bg-white-400 rounded-full'></div>
+                    <span className='text-white-400 text-sm font-bold tracking-widest uppercase'>
                       {step.number}
                     </span>
                   </div>
 
                   {/* Content */}
                   <div>
-                    <h3 className='text-xl font-display font-semibold text-white mb-3 group-hover:text-green-400 transition-colors duration-300 flex items-center gap-2'>
+                    <h3 className='text-xl font-display font-semibold text-white mb-3 group-hover:text-white-400 transition-colors duration-300 flex items-center gap-2'>
                       <Icon size={16} className='text-white/40' />
                       {step.title}
                     </h3>

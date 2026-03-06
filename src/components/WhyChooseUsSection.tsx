@@ -49,7 +49,7 @@ const WhyChooseUsSection = () => {
             <h2 className='text-4xl md:text-6xl font-body tracking-wide text-white mb-6'>
               Why Choose Us
             </h2>
-            <p className='text-xl text-white/80 font-body max-w-4xl mx-auto leading-relaxed'>
+            <p className='text-xl text-white/80 font-body max-w-5xl mx-auto leading-relaxed'>
               Trusted by global employers and professionals for ethical,
               transparent, and efficient recruitment solutions.
             </p>

@@ -49,7 +49,7 @@ const GlobalCommunitySection = () => {
   };
 
   return (
-    <section className='section-padding bg-black relative overflow-hidden'>
+    <section className='py-6 bg-black relative overflow-hidden'>
       {/* Background image with overlay */}
       <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
         <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>

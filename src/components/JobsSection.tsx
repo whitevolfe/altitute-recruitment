@@ -32,18 +32,18 @@ const JobsSection = () => {
 
         <ScrollReveal delay={0.1}>
           <div className='max-w-3xl mx-auto space-y-6'>
-            <p className='text-white/80 font-body font-light text-lg md:text-xl leading-relaxed'>
+            <p className='text-white/80 font-body font-light text-lg text-lg leading-relaxed'>
               The Group's first initiative, Altitude Talent, was launched as a
               strategic executive search and talent advisory firm dedicated to
               supporting organizations in Sri Lanka in securing high-impact
               professionals.
             </p>
 
-            <p className='text-white/80 font-body font-light text-lg md:text-xl leading-relaxed'>
+            <p className='text-white/80 font-body font-light text-lg text-lg leading-relaxed'>
               The firm has successfully placed talent across:
             </p>
 
-            <ul className='list-disc list-inside space-y-2 text-white/80 font-body font-light text-lg md:text-xl'>
+            <ul className='list-disc list-inside space-y-2 text-white/80 font-body font-light text-lg '>
               <li>Software Engineering</li>
               <li>Finance</li>
               <li>Legal</li>
@@ -51,7 +51,7 @@ const JobsSection = () => {
               <li>Executive Leadership</li>
             </ul>
 
-            <p className='text-white/80 font-body font-light text-lg md:text-xl leading-relaxed'>
+            <p className='text-white/80 font-body font-light text-lg leading-relaxed'>
               Altitude Talent goes beyond transactional recruitment. It partners
               closely with organizations to understand their culture, long-term
               objectives, and growth trajectory, ensuring that every placement
@@ -150,8 +150,8 @@ const JobsSection = () => {
               </ScrollReveal>
             ))}
           </div>
-          <div className='mt-10'>
-            <Button variant='hero' size='lg'>
+          <div className='mt-10 flex items-center justify-center'>
+            <Button variant='hero' size='cta'>
               Hire With Us
             </Button>
           </div>
