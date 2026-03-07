@@ -43,7 +43,7 @@ const WellnessSection = () => {
           </p>
         </ScrollReveal>
 
-        <div className='max-w-6xl  ml-14'>
+        <div className='max-w-6xl  ml-1'>
           <h2 className='text-xs tracking-[0.3em] uppercase text-black mb-4 font-body'>
             Corporate Wellbeing
           </h2>
@@ -98,7 +98,7 @@ const WellnessSection = () => {
                   {pkg.features.map((f) => (
                     <li
                       key={f}
-                      className='flex items-start gap-3 text-md text-black font-light font-body'
+                      className='flex items-start gap-3 text-sm text-black font-light font-body'
                     >
                       <Check size={16} className='text-black mt-0.5 shrink-0' />
                       {f}

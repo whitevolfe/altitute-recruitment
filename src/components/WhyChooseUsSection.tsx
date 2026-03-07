@@ -1,36 +1,42 @@
 import ScrollReveal from '@/components/ScrollReveal';
-import { Shield, Eye, Globe, Users, Zap } from 'lucide-react';
+import { Shield, Eye, Globe, Users, Zap, User } from 'lucide-react';
 
 const trustPoints = [
   {
     icon: Shield,
-    title: 'Ethical Recruitment',
+    title: 'Strategic Talent Acquisition',
     description:
-      'Committed to legal compliance, candidate safety, and responsible hiring practices across all international placements.',
+      'We approach recruitment as a strategic business function, ensuring every hire supports long-term organizational growth.',
   },
   {
     icon: Eye,
-    title: 'Transparent Process',
+    title: 'Precision Sourcing Methodology',
     description:
-      'Clear communication, documented procedures, and full visibility throughout the recruitment lifecycle.',
+      'Our targeted sourcing approach identifies high-caliber candidates who align with both the role and the company culture.',
   },
   {
     icon: Globe,
-    title: 'Global Employer Network',
+    title: 'Specialized Industry Expertise',
     description:
-      'Strong partnerships with reputable employers across multiple countries and industries.',
+      'We focus on key sectors including Software Engineering, Finance, Legal, and Advertising, enabling deeper market insight and stronger candidate networks.',
   },
   {
     icon: Users,
-    title: 'Skilled Sri Lankan Workforce',
+    title: 'High-Quality Candidate Experience',
     description:
-      'Access to a highly trained, adaptable, and globally competitive talent pool.',
+      'We maintain professionalism, transparency, and confidentiality throughout the hiring process, strengthening employer brand.',
   },
   {
     icon: Zap,
-    title: 'Fast Screening & Placement',
+    title: 'Efficient Hiring Process',
     description:
-      'Efficient shortlisting and streamlined coordination to reduce hiring timelines.',
+      'Our structured recruitment process reduces time-to-hire while maintaining rigorous candidate evaluation standards.',
+  },
+  {
+    icon: User,
+    title: 'Founder-Led Commitment',
+    description:
+      'Every engagement benefits from direct founder oversight, ensuring accountability, attention to detail, and exceptional service.',
   },
 ];
 

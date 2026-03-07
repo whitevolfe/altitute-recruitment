@@ -31,7 +31,7 @@ const JobsSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <div className='max-w-6xl ml-14 space-y-4'>
+          <div className='max-w-6xl ml-1 space-y-4'>
             <p className='text-white/80 font-body font-light text-lg text-lg leading-relaxed'>
               The Group's first initiative, Altitude Talent, was launched as a
               strategic executive search and talent advisory firm dedicated to

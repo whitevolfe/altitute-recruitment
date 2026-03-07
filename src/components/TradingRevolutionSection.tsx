@@ -10,11 +10,11 @@ const TradingRevolutionSection = () => {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>
 
-      <div className='relative z-10 max-w-7xl mx-auto px-6 py-20'>
+      <div className='relative z-10 max-w-7xl mx-auto px-6 py-15'>
         <div className='grid lg:grid-cols-2 gap-16 items-center min-h-[50vh]'>
           {/* Left side - Large headline */}
           <ScrollReveal>
-            <h2 className='text-3xl text-left px-10 ml-9 md:text-3xl lg:text-3xl font-body text-white leading-tight max-w-1xl'>
+            <h2 className='text-3xl text-left px-10 ml-9 md:text-3xl lg:text-4xl font-body text-white leading-tight max-w-1xl'>
               Revolutionizing Human Capital and Corporate Performance Advisory
             </h2>
           </ScrollReveal>

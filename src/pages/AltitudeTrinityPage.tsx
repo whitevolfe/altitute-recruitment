@@ -24,10 +24,7 @@ const AltitudeTrinityPage = () => {
           <div className='space-y-16'>
             <ScrollReveal delay={0.1}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
-                  The Mission
-                </h2>
-                <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
+                <p className='text-black font-body font-light text-lg leading-relaxed mb-2'>
                   To retain high-performing talent by strengthening the mental,
                   physical, and leadership foundations that sustain long-term
                   performance. Altitude Wellness protects organizations from
@@ -46,9 +43,6 @@ const AltitudeTrinityPage = () => {
 
             <ScrollReveal delay={0.2}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
-                  The Business Imperative
-                </h2>
                 <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
                   <p>
                     Employer Brand Positioning : Signal to top-tier talent that
@@ -68,19 +62,6 @@ const AltitudeTrinityPage = () => {
                     cost of burnout-driven attrition.
                   </p>
                 </p>
-                {/* <p className='text-muted-foreground font-body font-light text-lg leading-relaxed mb-4'>
-                  Research consistently demonstrates that employee wellbeing
-                  directly correlates with productivity, innovation, and
-                  retention. However, fragmented wellness approaches often fail
-                  to address the interconnected nature of clinical, biological,
-                  and strategic performance factors.
-                </p> */}
-                {/* <p className='text-muted-foreground font-body font-light text-lg leading-relaxed'>
-                  The Altitude Trinity bridges this gap by providing integrated,
-                  evidence-based interventions that simultaneously address
-                  mental health, physical wellness, and leadership effectiveness
-                  within a single, cohesive framework.
-                </p> */}
               </section>
             </ScrollReveal>
             <ScrollReveal delay={0.2}>
@@ -184,13 +165,11 @@ const AltitudeTrinityPage = () => {
                       Individual Benefits
                     </h3>
                     <ul className='text-black font-body font-light leading-relaxed space-y-2'>
-                      <li>• Reduced stress and anxiety levels</li>
-                      <li>• Enhanced emotional regulation</li>
-                      <li>• Improved body awareness and mindfulness</li>
-                      <li>• Increased self-confidence and self-expression</li>
-                      <li>
-                        • Better work-life balance through movement practices
-                      </li>
+                      <li>• Stronger mental resilience</li>
+                      <li>• Improved focus and energy</li>
+                      <li>• Clearer decision-making</li>
+                      <li>• Greater self-awareness</li>
+                      <li>• Sustainable performance</li>
                     </ul>
                   </div>
 
@@ -199,19 +178,11 @@ const AltitudeTrinityPage = () => {
                       Team Benefits
                     </h3>
                     <ul className='text-black font-body font-light leading-relaxed space-y-2'>
-                      <li>• Strengthened team cohesion and trust</li>
-                      <li>
-                        • Improved communication through non-verbal expression
-                      </li>
-                      <li>
-                        • Enhanced empathy and understanding among colleagues
-                      </li>
-                      <li>
-                        • Collective stress reduction and emotional support
-                      </li>
-                      <li>
-                        • Shared language for discussing workplace challenges
-                      </li>
+                      <li>• Stronger workplace collaboration</li>
+                      <li>• Higher employee engagement</li>
+                      <li>• Reduced burnout and workplace stress</li>
+                      <li>• Improved team dynamics</li>
+                      <li>• More productive work environments</li>
                     </ul>
                   </div>
                 </div>

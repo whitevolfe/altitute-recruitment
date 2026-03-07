@@ -145,7 +145,7 @@ const TestimonialsSection = () => {
   return (
     <section
       id='testimonials'
-      className='py-15 bg-black relative overflow-hidden'
+      className='py-0 bg-black relative overflow-hidden'
     >
       {/* Background image with overlay */}
       <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
