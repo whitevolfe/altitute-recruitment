@@ -60,7 +60,7 @@ const LeadershipSection = () => {
                   <img
                     src={founder.image}
                     alt={founder.name}
-                    className='w-40 h-40 mb-6'
+                    className='w-40 h-50 mb-6 object-cover border border-white/20 shadow-lg'
                   />
                 ) : (
                   <div className='w-20 h-20 rounded-full bg-secondary flex items-center justify-center mb-6'>
