@@ -14,6 +14,7 @@ import Contact from './pages/Contact';
 import AltitudeTrinityPage from './pages/AltitudeTrinityPage';
 import MovementTherapyPage from './pages/MovementTherapyPage';
 import NotFound from './pages/NotFound';
+import RecruitmentChatbot from './components/RecruitmentChatbot';
 
 const queryClient = new QueryClient();
 
@@ -44,6 +45,7 @@ const App = () => (
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
+      <RecruitmentChatbot />
     </TooltipProvider>
   </QueryClientProvider>
 );
