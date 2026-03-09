@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import ConsultationModal from './ConsultationModal';
 import heroVideo from '@/assets/hero-video2.mp4';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   const [isConsultationModalOpen, setIsConsultationModalOpen] = useState(false);
@@ -47,14 +48,11 @@ const HeroSection = () => {
           className='flex flex-col sm:flex-row gap-4 justify-center'
         >
           <Button variant='hero' size='lg' asChild>
-            <a href='#careers'>Open Roles</a>
+            <Link to='/talent#open-vacancies'>Open Roles</Link>
           </Button>
-          <Button
-            variant='hero-outline'
-            size='lg'
-            onClick={() => setIsConsultationModalOpen(true)}
-          >
-            Partner With Us
+
+          <Button variant='hero-outline' size='lg' asChild>
+            <Link to='/wellness#wellness'>Wellness Packages</Link>
           </Button>
         </motion.div>
       </div>

@@ -66,7 +66,7 @@ const JobsSection = () => {
 
       <div className='relative z-10 max-w-4xl mx-auto'>
         <ScrollReveal delay={0.2}>
-          <div className='text-center mt-20'>
+          <div id='open-vacancies' className='text-center mt-20'>
             <h2 className='text-5xl md:text-5xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16'>
               Open Vacancies
             </h2>
