@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollReveal from '@/components/ScrollReveal';
+import { Button } from '@/components/ui/button';
 
 const MovementTherapyPage = () => {
   return (
@@ -198,11 +199,23 @@ const MovementTherapyPage = () => {
                   </div>
                 </div>
                 <div className='flex items-center justify-center'>
-                  <h1 className='text-black font-body font-light italic text-lg leading-relaxed mt-10'>
+                  <h1 className='text-black font-body font-light italic text-lg leading-relaxed mt-10 mb-8'>
                     “Together, we can unlock new pathways to health,
                     empowerment, and connection—one step at a time”
                     <p>-Rangi Fernando</p>
                   </h1>
+                </div>
+                <div className='flex alignitems-center justify-center'>
+                  <Button
+                    variant='hero'
+                    size='lg'
+                    asChild
+                    className='bg-black text-white '
+                  >
+                    <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
+                      Book an Altitude Wellness Session
+                    </a>
+                  </Button>
                 </div>
               </section>
             </ScrollReveal>

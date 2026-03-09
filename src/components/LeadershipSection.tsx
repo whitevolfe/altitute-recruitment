@@ -47,9 +47,9 @@ const LeadershipSection = () => {
 
       <div className='relative z-10 max-w-7xl mx-auto px-6 py-20'>
         <ScrollReveal>
-          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-10 font-body'>
-            Leadership
-          </p>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] text-foreground mb-8'>
+            LEADERSHIP
+          </h2>
         </ScrollReveal>
 
         <div className='grid md:grid-cols-2 gap-8'>

@@ -3,11 +3,15 @@ const BrandLogosSection = () => {
     'ALTITUDE GROUP',
     'ALTITUDE TALENT',
     'ALTITUDE WELLNESS',
-    // 'ALTITUDE GLOBAL',
     'ALTITUDE GROUP',
     'ALTITUDE TALENT',
     'ALTITUDE WELLNESS',
-    // 'ALTITUDE GLOBAL',
+    'ALTITUDE GROUP',
+    'ALTITUDE TALENT',
+    'ALTITUDE WELLNESS',
+    'ALTITUDE GROUP',
+    'ALTITUDE TALENT',
+    'ALTITUDE WELLNESS',
   ];
 
   // const logos2 = [

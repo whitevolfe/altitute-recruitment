@@ -138,7 +138,7 @@ const ContactSection = () => {
             <div className='space-y-8'>
               <div>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  CONTACT DETAILS
+                  Altitude Talent
                 </h3>
                 <div className='space-y-6'>
                   <a
@@ -148,17 +148,10 @@ const ContactSection = () => {
                     <Mail size={18} strokeWidth={1.5} />
                     talent@altitudetalent.com.lk
                   </a>
-                  <div className='flex items-center gap-3 text-muted-foreground font-body'>
-                    <MapPin size={18} strokeWidth={1.5} />
-                    Sri Lanka
-                  </div>
                 </div>
               </div>
 
               <div>
-                <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  CONNECT
-                </h3>
                 <div className='space-x-6'>
                   <a
                     href='https://www.linkedin.com/company/altitudetalent'
@@ -183,8 +176,17 @@ const ContactSection = () => {
 
               <div>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  ALTITUDE WELLNESS
+                  Altitude Wellness
                 </h3>
+                <div className='space-y-8 mb-7'>
+                  <a
+                    href='mailto:wellness@altitudetalent.com.lk'
+                    className='flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body'
+                  >
+                    <Mail size={18} strokeWidth={1.5} />
+                    wellness@altitudetalent.com.lk
+                  </a>
+                </div>
                 <div className='space-x-6'>
                   <a
                     href='https://www.linkedin.com/company/altitude-wellness-srilanka/'

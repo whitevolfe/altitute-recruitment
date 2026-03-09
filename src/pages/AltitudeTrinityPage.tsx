@@ -16,12 +16,12 @@ const AltitudeTrinityPage = () => {
             <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6 '>
               The Altitude Trinity
             </h1>
-            <p className='text-xs tracking-[0.3em] uppercase text-black mb-16 font-body'>
+            <p className='text-xs tracking-[0.3em] uppercase text-black mb-8 font-body'>
               Triple Pillar Methodology
             </p>
           </ScrollReveal>
 
-          <div className='space-y-16'>
+          <div className='space-y-8'>
             <ScrollReveal delay={0.1}>
               <section>
                 <p className='text-black font-body font-light text-lg leading-relaxed mb-2'>
@@ -45,20 +45,20 @@ const AltitudeTrinityPage = () => {
               <section>
                 <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
                   <p>
-                    Employer Brand Positioning : Signal to top-tier talent that
+                    Employer brand positioning : Signal to top-tier talent that
                     your organization invests in long-term human mastery.
                   </p>
                   <p>
-                    Performance Optimization : Shift teams from presenteeism to
+                    Performance optimization : Shift teams from presenteeism to
                     peak operational state.{' '}
                   </p>
                   <p>
-                    Desision Integrity : Protect cognitive reserves in
+                    Desision integrity : Protect cognitive reserves in
                     leadership during high-stakes periods.
                   </p>
 
                   <p>
-                    Talent Retention : Reduce the high financial and cultural
+                    Talent retention : Reduce the high financial and cultural
                     cost of burnout-driven attrition.
                   </p>
                 </p>
@@ -72,83 +72,83 @@ const AltitudeTrinityPage = () => {
                 <div className='space-y-8'>
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Phase 1: Foundation & Introduction
+                      Phase 1: Strategic Consultation
                     </h3>
                     <p className='text-black font-body font-light leading-relaxed mb-3'>
-                      Overview of session goals and introduction to Dance
-                      Movement Therapy principles.
+                      A focused discovery conversation with leadership to
+                      identify organizational pressure points, workforce
+                      challenges, and productivity risks. This ensures the
+                      program addresses real operational needs rather than
+                      generic wellness themes.
                     </p>
-                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
-                      <li>
-                        • Gentle stretching sequences to release physical
-                        tension
-                      </li>
-                      <li>• Breathwork exercises for grounding and presence</li>
-                      <li>
-                        • Introduction to movement as a form of self-expression
-                      </li>
-                      <li>• Establishing group safety and trust protocols</li>
-                    </ul>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Phase 2: Guided Movement Therapy
+                      Phase 2: Workforce Insight Mapping
                     </h3>
                     <p className='text-black font-body font-light leading-relaxed mb-3'>
-                      Core therapeutic interventions focused on stress relief,
-                      emotional expression, and team cohesion.
+                      Altitude Wellness evaluates key dynamics such as employee
+                      stress indicators, leadership expectations, team
+                      structure, and workplace performance pressures to
+                      determine the most relevant intervention areas.
                     </p>
-                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
-                      <li>
-                        • Guided movement sequences for stress release and
-                        emotional processing
-                      </li>
-                      <li>
-                        • Partner and group exercises to build interpersonal
-                        connection
-                      </li>
-                      <li>
-                        • Improvisational movement to explore personal
-                        narratives
-                      </li>
-                      <li>
-                        • Rhythmic exercises to synchronize group energy and
-                        foster cohesion
-                      </li>
-                      <li>
-                        • Movement metaphors for workplace challenges and
-                        resilience
-                      </li>
-                    </ul>
                   </div>
 
                   <div className='border-l-4 border-primary pl-6'>
                     <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Phase 3: Integration & Reflection
+                      Phase 3: Trinity Program Design
                     </h3>
                     <p className='text-black font-body font-light leading-relaxed mb-3'>
-                      Facilitated discussion and relaxation practices to
-                      integrate insights into daily work life.
+                      The session structure is strategically designed around the
+                      Altitude Trinity methodology, integrating psychological
+                      resilience, physical regulation, and executive-level
+                      strategic clarity to create a balanced performance
+                      framework.
                     </p>
-                    <ul className='text-black font-body font-light leading-relaxed space-y-2'>
-                      <li>
-                        • Group sharing and reflection on movement experiences
-                      </li>
-                      <li>
-                        • Deep relaxation and guided imagery for restoration
-                      </li>
-                      <li>
-                        • Practical applications for workplace stress management
-                      </li>
-                      <li>
-                        • Integration exercises to bring movement awareness into
-                        daily routines
-                      </li>
-                      <li>
-                        • Closing rituals to honor the group's shared experience
-                      </li>
-                    </ul>
+                  </div>
+
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 4: Expert Customization
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      Each certified specialist refines their segment to align
+                      with the organization's industry environment, workforce
+                      profile, and leadership culture.
+                    </p>
+                  </div>
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 5: Operational Coordination
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      Altitude Wellness manages all logistical planning
+                      including scheduling, session preparation, and speaker
+                      coordination to ensure a seamless corporate experience.
+                    </p>
+                  </div>
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 6: High-Impact Delivery
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      A professionally executed three-hour experience where each
+                      expert delivers a focused one-hour session, providing
+                      clear and practical strategies employees can immediately
+                      apply.
+                    </p>
+                  </div>
+                  <div className='border-l-4 border-primary pl-6'>
+                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
+                      Phase 7: Continued Development Options
+                    </h3>
+                    <p className='text-black font-body font-light leading-relaxed mb-3'>
+                      Organizations may extend the impact through optional
+                      follow-up initiatives such as executive coaching,
+                      leadership advisory sessions, or advanced wellness
+                      engagements.
+                    </p>
                   </div>
                 </div>
               </section>
@@ -230,51 +230,7 @@ const AltitudeTrinityPage = () => {
             </ScrollReveal> */}
             <ScrollReveal delay={0.3}>
               <section>
-                <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>
-                  The Process
-                </h2>
                 <div className='space-y-6'>
-                  <div className='border-l-4 border-secondary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Requirement Submission
-                    </h3>
-                    <p className='text-black font-body font-light leading-relaxed'>
-                      Employers submit their workforce requirements with
-                      detailed job specifications and expectations.
-                    </p>
-                  </div>
-
-                  <div className='border-l-4 border-secondary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Candidate Screening
-                    </h3>
-                    <p className='text-black font-body font-light leading-relaxed'>
-                      Our recruitment team carefully screens, verifies, and
-                      shortlists qualified candidates.
-                    </p>
-                  </div>
-
-                  <div className='border-l-4 border-secondary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Interview & Selection
-                    </h3>
-                    <p className='text-black font-body font-light leading-relaxed'>
-                      We coordinate interviews, assessments, and employer
-                      evaluations to finalize selections.
-                    </p>
-                  </div>
-
-                  <div className='border-l-4 border-secondary pl-6'>
-                    <h3 className='text-xl font-body font-semibold text-black mb-3'>
-                      Deployment
-                    </h3>
-                    <p className='text-black font-body font-light leading-relaxed'>
-                      Successful candidates complete documentation and are
-                      deployed in full compliance with international
-                      regulations.
-                    </p>
-                  </div>
-
                   <div className='flex items-center justify-center'>
                     <p className='text-black font-body font-light italic leading-relaxed ml-6'>
                       Your workforce is your greatest asset. Strengthen it!
@@ -294,121 +250,6 @@ const AltitudeTrinityPage = () => {
                         </a>
                       </Button>
                     </div>
-
-                    {isOpen && (
-                      <div className='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50'>
-                        <div className='bg-white p-6 rounded-lg max-w-md w-full mx-4'>
-                          <h3 className='text-lg font-semibold mb-4'>
-                            Speak to a Talent Partner
-                          </h3>
-                          <form
-                            action='https://api.web3forms.com/submit'
-                            method='POST'
-                            className='space-y-4'
-                            onSubmit={() => setIsOpen(false)}
-                          >
-                            <input
-                              type='hidden'
-                              name='access_key'
-                              value='26c0c484-0f08-44f4-9b53-85677e50cfd5'
-                            />
-                            <input
-                              type='hidden'
-                              name='subject'
-                              value='New Talent Partner Inquiry'
-                            />
-                            <input
-                              type='hidden'
-                              name='from_name'
-                              value='Altitude Talent Website'
-                            />
-                            <input
-                              type='hidden'
-                              name='to'
-                              value='your-email@example.com'
-                            />
-
-                            <div>
-                              <label
-                                htmlFor='name'
-                                className='block text-sm font-medium text-gray-700'
-                              >
-                                Name
-                              </label>
-                              <input
-                                type='text'
-                                id='name'
-                                name='name'
-                                required
-                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
-                              />
-                            </div>
-
-                            <div>
-                              <label
-                                htmlFor='email'
-                                className='block text-sm font-medium text-gray-700'
-                              >
-                                Email
-                              </label>
-                              <input
-                                type='email'
-                                id='email'
-                                name='email'
-                                required
-                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
-                              />
-                            </div>
-
-                            <div>
-                              <label
-                                htmlFor='company'
-                                className='block text-sm font-medium text-gray-700'
-                              >
-                                Company
-                              </label>
-                              <input
-                                type='text'
-                                id='company'
-                                name='company'
-                                required
-                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
-                              />
-                            </div>
-
-                            <div>
-                              <label
-                                htmlFor='message'
-                                className='block text-sm font-medium text-gray-700'
-                              >
-                                Message
-                              </label>
-                              <textarea
-                                id='message'
-                                name='message'
-                                rows={4}
-                                className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500'
-                              ></textarea>
-                            </div>
-
-                            <div className='flex space-x-2'>
-                              <Button
-                                type='submit'
-                                variant='hero'
-                                className='flex-1'
-                              >
-                                Submit
-                              </Button>
-                              <Button variant='hero' size='lg' asChild>
-                                <a href='mailto:wellness@altitudetalent.com.lk?subject=Book an Altitude Wellness Session'>
-                                  Book an Altitude Wellness Session
-                                </a>
-                              </Button>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    )}
                   </div>
                 </div>
               </section>

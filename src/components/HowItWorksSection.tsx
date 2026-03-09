@@ -34,7 +34,7 @@ const steps = [
 
 const HowItWorksSection = () => {
   return (
-    <section className='section-padding bg-black relative overflow-hidden'>
+    <section className='bg-black relative overflow-hidden'>
       {/* Background image with overlay */}
       <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
         <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
@@ -43,9 +43,9 @@ const HowItWorksSection = () => {
 
       <div className='relative z-10 max-w-7xl mx-auto'>
         <ScrollReveal>
-          <div className='mb-16'>
-            <h2 className='text-5xl md:text-7xl font-body font-bold text-white mb-8'>
-              OUR PROCESS
+          <div className='mb-16 '>
+            <h2 className='text-5xl md:text-7xl font-body flex justify-center text-white mb-8'>
+              Our Process
             </h2>
             <div className='border-t border-white/20 w-full'></div>
           </div>
