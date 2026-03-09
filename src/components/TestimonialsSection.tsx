@@ -87,6 +87,66 @@ const testimonials = [
     // company: 'Meridian Finance Group',
     initials: 'PM',
   },
+  {
+    quote: `They made the entire process from job search to onboarding smooth and hassle-free. Their professionalism, clear communication, and support were outstanding. I wish you both continued success!`,
+    name: 'Senior Sales Executive',
+    // company: 'Meridian Finance Group',
+    initials: 'SSE',
+  },
+  {
+    quote: `Charitha and Natlie helped me find the perfect role, and I couldn’t be happier. I highly recommend working with them. The best doors open when the right people knock.`,
+    name: 'SEO Specialist',
+    // company: 'Meridian Finance Group',
+    initials: 'SS',
+  },
+  {
+    quote: `Charitha and Natlie are two of the best Recruiters I have ever met. They go above and beyond to support the process of recruitment. I recommend Charitha and Natlie as an asset to any organization.`,
+    name: 'Senior Recruitment Lead',
+    // company: 'Meridian Finance Group',
+    initials: 'SRL',
+  },
+  {
+    quote: `I deeply appreciate the effort they put into making the experience smooth while maintaining confidentiality. I wholeheartedly recommend their services to anyone looking for a reliable and professional recruitment experience.`,
+    name: 'Head of Finance',
+    // company: 'Meridian Finance Group',
+    initials: 'HOF',
+  },
+  {
+    quote: `They were extremely professional, knowledgeable and helped me to find a great professional opportunity. They helped me navigate the process very skillfully and instilled high confidence throughout.`,
+    name: 'Vice President ',
+    // company: 'Meridian Finance Group',
+    initials: 'VP',
+  },
+  {
+    quote: `I have been in the Advertising & Marketing field for over 19 years and have worked with various recruiters from reputable recruiting agencies. I can say without a doubt, Charitha and Natlie are two of the most supportive, attentive, and empathetic recruiters I have ever worked with.`,
+    name: 'Account Director',
+    // company: 'Meridian Finance Group',
+    initials: 'AD',
+  },
+  {
+    quote: `Natlie and Charitha are exceptional at what they do. Without a doubt, two of the most outstanding recruiters that I have had the chance to collaborate with.`,
+    name: 'Social Media Manager',
+    // company: 'Meridian Finance Group',
+    initials: 'SMM',
+  },
+  {
+    quote: `Well done on what you have both done with Altitude. Always destined for greater things!`,
+    name: 'Co-Founder',
+    // company: 'Meridian Finance Group',
+    initials: 'CF',
+  },
+  {
+    quote: `Its rare to find recruiters that you can genuinely work with and Charitha and Natlie are those two of those rare ones`,
+    name: 'Head of Talent Acquisition',
+    // company: 'Meridian Finance Group',
+    initials: 'HTA',
+  },
+  {
+    quote: `They entered an industry with an influx of recruitment agencies and made their mark in less than a year. That tells me they are a force to be reckoned with.`,
+    name: 'Vice President of Engineering',
+    // company: 'Meridian Finance Group',
+    initials: 'VPE',
+  },
 ];
 
 const TestimonialsSection = () => {
