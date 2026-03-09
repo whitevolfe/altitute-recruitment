@@ -163,7 +163,7 @@ const RecruitmentChatbot = () => {
     <>
       {/* Floating Chat Button */}
       <div className='chatbot-fab' onClick={() => setIsOpen(!isOpen)}>
-        <div className='chatbot-icon'>💬</div>
+        <div className='chatbot-icon border'>💬</div>
         <span className='chatbot-text'>Chat with us</span>
       </div>
 
@@ -333,8 +333,8 @@ const RecruitmentChatbot = () => {
           display: flex;
           align-items: center;
           gap: 10px;
-          background: #2563eb;
-          color: white;
+          background: #ffffff;
+          color: black;
           padding: 12px 16px;
           border-radius: 50px;
           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -344,7 +344,7 @@ const RecruitmentChatbot = () => {
         }
 
         .chatbot-fab:hover {
-          background: #1d4ed8;
+          background: #ffffff;
           transform: translateY(-2px);
           box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
         }
@@ -416,7 +416,7 @@ const RecruitmentChatbot = () => {
           width: 40px;
           height: 40px;
           border-radius: 50%;
-          background: #2563eb;
+          background: #000000;
           color: white;
           display: flex;
           align-items: center;
