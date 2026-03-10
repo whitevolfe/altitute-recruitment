@@ -41,7 +41,7 @@ const AltitudeTrinityPage = () => {
               </section>
             </ScrollReveal>
 
-            <ScrollReveal delay={0.2}>
+            {/* <ScrollReveal delay={0.2}>
               <section>
                 <p className='text-black font-body font-light text-lg leading-relaxed mb-4'>
                   <p>
@@ -63,7 +63,7 @@ const AltitudeTrinityPage = () => {
                   </p>
                 </p>
               </section>
-            </ScrollReveal>
+            </ScrollReveal> */}
             <ScrollReveal delay={0.2}>
               <section>
                 <h2 className='text-2xl md:text-3xl font-body font-semibold text-black mb-6'>

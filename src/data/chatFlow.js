@@ -142,7 +142,7 @@ const chatFlow = {
 
   talentStart: {
     message:
-      'Simply contact us through the website or request a consultation, and we will discuss your hiring needs.',
+      'You can contact us through our website or request a consultation, and we will arrange a call to discuss your hiring requirement in detail.',
     options: [{ label: 'Back to Talent Menu', next: 'talent' }],
   },
 
