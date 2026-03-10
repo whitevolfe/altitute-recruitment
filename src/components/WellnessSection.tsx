@@ -36,7 +36,7 @@ const packages = [
 const WellnessSection = () => {
   return (
     <section id='wellness' className='section-padding'>
-      <div className='max-w-7xl mx-auto px-6 md:px-0'>
+      <div className='max-w-4xl mx-auto px-6 md:px-0'>
         <ScrollReveal>
           <p className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6'>
             Altitude Wellness
