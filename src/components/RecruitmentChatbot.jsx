@@ -174,7 +174,9 @@ const RecruitmentChatbot = () => {
             {/* Header */}
             <div className='chatbot-header'>
               <div className='chatbot-header-content'>
-                <div className='chatbot-avatar'>🤖</div>
+                <div className='chatbot-avatar border'>
+                  <img src='/brandlogos/8.svg' alt='Chatbot Avatar' />
+                </div>
                 <div className='chatbot-info'>
                   <h3 className='font-body '>Altitude Group Assistant</h3>
                   <div className='status-indicator'>
@@ -416,7 +418,7 @@ const RecruitmentChatbot = () => {
           width: 40px;
           height: 40px;
           border-radius: 50%;
-          background: #000000;
+          background: #ffffff;
           color: white;
           display: flex;
           align-items: center;
