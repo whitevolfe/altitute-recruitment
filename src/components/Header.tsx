@@ -26,9 +26,15 @@ const navLinks = [
 
 const Header = () => {
   const location = useLocation();
+  const lightPages = [
+    '/wellness',
+    '/packages/altitude-trinity',
+    '/packages/movement-therapy',
+  ];
+  const isLightPage = lightPages.includes(location.pathname);
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const isWellnessPage = location.pathname === '/wellness';
+
   const isTalentPage = location.pathname === '/talent';
 
   useEffect(() => {
@@ -43,7 +49,7 @@ const Header = () => {
         scrolled ? 'min-h-16' : 'min-h-20'
       } ${
         scrolled
-          ? isWellnessPage
+          ? isLightPage
             ? 'bg-white/95 backdrop-blur-md border-b border-black'
             : isTalentPage
               ? 'bg-black/95 backdrop-blur-md border-b border-white/10'
@@ -55,7 +61,7 @@ const Header = () => {
         <Link
           to='/'
           className={`flex items-center gap-3 font-display text-3xl tracking-wider ${
-            isWellnessPage
+            isLightPage
               ? 'text-black'
               : isTalentPage
                 ? 'text-white'
@@ -64,7 +70,7 @@ const Header = () => {
         >
           <img
             src={
-              isWellnessPage
+              isLightPage
                 ? '/brandlogos/8.svg'
                 : '/brandlogos/altitudegroupheroimg.png'
             }
@@ -79,7 +85,7 @@ const Header = () => {
               return (
                 <DropdownMenu key={link.href}>
                   <DropdownMenuTrigger
-                    className={`flex items-center gap-1 text-xs tracking-[0.2em] uppercase ${isWellnessPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors duration-300 font-body font-medium`}
+                    className={`flex items-center gap-1 text-xs tracking-[0.2em] uppercase ${isLightPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors duration-300 font-body font-medium`}
                   >
                     {link.label}
                     <ChevronDown size={12} />
@@ -103,7 +109,7 @@ const Header = () => {
               <Link
                 key={link.href}
                 to={link.href}
-                className={`text-xs tracking-[0.2em] uppercase ${isWellnessPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors duration-300 font-body font-medium`}
+                className={`text-xs tracking-[0.2em] uppercase ${isLightPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors duration-300 font-body font-medium`}
               >
                 {link.label}
               </Link>
@@ -112,7 +118,7 @@ const Header = () => {
         </nav>
 
         <button
-          className={`md:hidden ${isWellnessPage ? 'text-black' : isTalentPage ? 'text-white' : 'text-foreground'}`}
+          className={`md:hidden ${isLightPage ? 'text-black' : isTalentPage ? 'text-white' : 'text-foreground'}`}
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <X size={24} /> : <Menu size={24} />}
@@ -125,7 +131,7 @@ const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className={`md:hidden ${isWellnessPage ? 'bg-white/98 backdrop-blur-md border-b border-black' : isTalentPage ? 'bg-black/98 backdrop-blur-md border-b border-white/10' : 'bg-background/98 backdrop-blur-md border-b border-border'} overflow-hidden`}
+            className={`md:hidden ${isLightPage ? 'bg-white/98 backdrop-blur-md border-b border-black' : isTalentPage ? 'bg-black/98 backdrop-blur-md border-b border-white/10' : 'bg-background/98 backdrop-blur-md border-b border-border'} overflow-hidden`}
           >
             <div className='px-6 pb-6 pt-2'>
               {navLinks.map((link) => (
@@ -139,7 +145,7 @@ const Header = () => {
                       setMobileOpen(false);
                     }}
                     className={`block py-3 text-sm tracking-[0.15em] uppercase ${
-                      isWellnessPage
+                      isLightPage
                         ? 'text-black hover:text-black'
                         : isTalentPage
                           ? 'text-white/70 hover:text-white'
@@ -155,7 +161,7 @@ const Header = () => {
                           key={item.href}
                           to={item.href}
                           onClick={() => setMobileOpen(false)}
-                          className={`block py-2 text-sm ${isWellnessPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors font-body`}
+                          className={`block py-2 text-sm ${isLightPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors font-body`}
                         >
                           {item.label}
                         </Link>

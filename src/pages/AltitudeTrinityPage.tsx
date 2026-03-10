@@ -11,7 +11,7 @@ const AltitudeTrinityPage = () => {
     <div className='min-h-screen bg-white'>
       <Header />
       <main className='section-padding'>
-        <div className='max-w-4xl mx-auto '>
+        <div className='max-w-7xl mx-auto px-6 '>
           <ScrollReveal>
             <h1 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6 '>
               The Altitude Trinity
