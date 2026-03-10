@@ -122,8 +122,19 @@ const Header = () => {
                 <div key={link.href}>
                   <Link
                     to={link.href}
-                    onClick={() => setMobileOpen(false)}
-                    className={`block py-3 text-sm tracking-[0.15em] uppercase ${isWellnessPage ? 'text-black hover:text-black' : isTalentPage ? 'text-white/70 hover:text-white' : 'text-muted-foreground hover:text-foreground'} transition-colors font-body`}
+                    onClick={(e) => {
+                      if (link.label === 'About') {
+                        e.preventDefault(); // disables navigation for About
+                      }
+                      setMobileOpen(false);
+                    }}
+                    className={`block py-3 text-sm tracking-[0.15em] uppercase ${
+                      isWellnessPage
+                        ? 'text-black hover:text-black'
+                        : isTalentPage
+                          ? 'text-white/70 hover:text-white'
+                          : 'text-muted-foreground hover:text-foreground'
+                    } transition-colors font-body`}
                   >
                     {link.label}
                   </Link>
