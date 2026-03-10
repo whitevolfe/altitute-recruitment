@@ -135,10 +135,10 @@ const ContactSection = () => {
           </ScrollReveal>
 
           <ScrollReveal delay={0.2}>
-            <div className='space-y-8'>
-              <div>
+            <div className='space-y-8 '>
+              <div className='mt-9'>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  Altitude Talent
+                  ALTITUDE TALENT
                 </h3>
                 <div className='space-y-6'>
                   <a
@@ -176,7 +176,7 @@ const ContactSection = () => {
 
               <div>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
-                  Altitude Wellness
+                  ALTITUDE WELLNESS
                 </h3>
                 <div className='space-y-8 mb-7'>
                   <a
