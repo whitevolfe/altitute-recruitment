@@ -72,7 +72,7 @@ const WhyChooseUsSection = () => {
                     <div className='mb-6 p-4 bg-blue-50/20 rounded-full group-hover:bg-blue-100/30 transition-colors duration-300'>
                       <Icon
                         size={32}
-                        className='text-blue-400 group-hover:scale-110 transition-transform duration-300'
+                        className='text-white-400 group-hover:scale-110 transition-transform duration-300'
                       />
                     </div>
                     <h3 className='text-xl font-body font-semibold text-white mb-4 group-hover:text-blue-200 transition-colors'>

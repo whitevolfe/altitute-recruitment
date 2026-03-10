@@ -46,9 +46,7 @@ const ContactSection = () => {
 
       <div className='relative z-10 max-w-7xl mx-auto '>
         <ScrollReveal>
-          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'>
-            Get In Touch
-          </p>
+          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'></p>
           <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
             Contact Us
           </h2>

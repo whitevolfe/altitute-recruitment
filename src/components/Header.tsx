@@ -54,10 +54,20 @@ const Header = () => {
       <div className='h-full max-w-7xl mx-auto px-6 flex items-center justify-between overflow-hidden'>
         <Link
           to='/'
-          className={`flex items-center gap-3 font-display text-3xl tracking-wider ${isWellnessPage ? 'text-black' : isTalentPage ? 'text-white' : 'text-foreground'}`}
+          className={`flex items-center gap-3 font-display text-3xl tracking-wider ${
+            isWellnessPage
+              ? 'text-black'
+              : isTalentPage
+                ? 'text-white'
+                : 'text-foreground'
+          }`}
         >
           <img
-            src='/brandlogos/altitudegroupheroimg.png'
+            src={
+              isWellnessPage
+                ? '/brandlogos/8.svg'
+                : '/brandlogos/altitudegroupheroimg.png'
+            }
             alt='Altitude Group Logo'
             className='h-20 w-auto object-contain'
           />
