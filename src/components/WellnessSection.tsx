@@ -81,7 +81,7 @@ const WellnessSection = () => {
 
         <br />
 
-        <div className='grid md:grid-cols-2 gap-8'>
+        <div id='wellness-package' className='grid md:grid-cols-2 gap-8'>
           {packages.map((pkg, i) => (
             <ScrollReveal key={pkg.name} delay={0.15 + i * 0.1}>
               <div className='border border-border p-8 md:p-10 flex flex-col h-full hover:border-foreground/20 transition-colors duration-500'>

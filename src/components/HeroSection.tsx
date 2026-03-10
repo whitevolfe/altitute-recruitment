@@ -52,7 +52,7 @@ const HeroSection = () => {
           </Button>
 
           <Button variant='hero-outline' size='lg' asChild>
-            <Link to='/wellness#wellness'>Wellness Packages</Link>
+            <Link to='/wellness#wellness-package'>Wellness Packages</Link>
           </Button>
         </motion.div>
       </div>

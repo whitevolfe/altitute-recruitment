@@ -15,6 +15,7 @@ import AltitudeTrinityPage from './pages/AltitudeTrinityPage';
 import MovementTherapyPage from './pages/MovementTherapyPage';
 import NotFound from './pages/NotFound';
 import RecruitmentChatbot from './components/RecruitmentChatbot';
+import ScrollToTop from './components/ScrollToTop';
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Index />} />
           <Route path='/about' element={<About />} />
