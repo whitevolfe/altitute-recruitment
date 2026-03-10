@@ -43,7 +43,7 @@ const WellnessSection = () => {
           </p>
         </ScrollReveal>
 
-        <div className='max-w-6xl  ml-1'>
+        <div className='max-w-8xl  ml-1'>
           <h2 className='text-xs tracking-[0.3em] uppercase text-black mb-4 font-body'>
             Corporate Wellbeing
           </h2>
