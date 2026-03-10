@@ -176,7 +176,7 @@ const RecruitmentChatbot = () => {
               <div className='chatbot-header-content'>
                 <div className='chatbot-avatar'>🤖</div>
                 <div className='chatbot-info'>
-                  <h3>Altitude Group Assistant</h3>
+                  <h3 className='font-body '>Altitude Group Assistant</h3>
                   <div className='status-indicator'>
                     <span className='status-dot'></span>
                     <span className='status-text'>Online</span>
@@ -426,7 +426,7 @@ const RecruitmentChatbot = () => {
 
         .chatbot-info h3 {
           margin: 0;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 600;
           color: #1f2937;
         }
