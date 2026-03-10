@@ -14,8 +14,8 @@ const TradingRevolutionSection = () => {
         <div className='grid lg:grid-cols-2 gap-16 items-center min-h-[50vh]'>
           {/* Left side - Large headline */}
           <ScrollReveal>
-            <h2 className='text-3xl text-left px-10 ml-9 md:text-3xl lg:text-4xl font-body text-white leading-tight max-w-1xl'>
-              Revolutionizing Human Capital and Corporate Performance Advisory
+            <h2 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-body text-white leading-tight max-w-xl mx-auto md:mx-0 px-4 md:px-10 text-center mt-5 md:text-left'>
+              REVOLUTIONIZING HUMAN CAPITAL & CORPORATE PERFORMANCE ADVISORY
             </h2>
           </ScrollReveal>
 

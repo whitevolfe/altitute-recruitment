@@ -163,10 +163,10 @@ const TestimonialsSection = () => {
 
       <div className='relative z-10 max-w-6xl mx-auto px-6'>
         <ScrollReveal>
-          <p className='text-xs tracking-[0.3em] uppercase text-white/70 mb-4 font-body'>
+          <p className='text-xs tracking-[0.3em] uppercase text-white/70 mt-4 mb-4 font-body'>
             Testimonials
           </p>
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-16'>
+          <h2 className='text-2xl sm:text-3xl md:text-6xl font-body font-medium tracking-[0.1em] md:tracking-[0.2em] uppercase text-white mb-10 md:mb-16 text-center'>
             What Clients Say
           </h2>
         </ScrollReveal>
