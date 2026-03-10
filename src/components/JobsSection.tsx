@@ -23,7 +23,7 @@ const JobsSection = () => {
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>
 
-      <div className='relative z-10 max-w-4xl mx-auto px-6 md:px-0 '>
+      <div className='relative z-10 max-w-8xl mx-auto px-6 '>
         <ScrollReveal>
           <p className='text-3xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-white mb-5'>
             Altitude Talent
