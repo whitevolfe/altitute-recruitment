@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import ScrollReveal from '@/components/ScrollReveal';
-import { Mail, MapPin, Linkedin, Instagram, Facebook } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Facebook } from 'lucide-react';
 
-const WEB3FORMS_KEY = '26c0c484-0f08-44f4-9b53-85677e50cfd5'; // Replace with your Web3Forms access key
+const WEB3FORMS_KEY = '26c0c484-0f08-44f4-9b53-85677e50cfd5';
 
 const ContactSection = () => {
   const [loading, setLoading] = useState(false);
@@ -22,6 +22,7 @@ const ContactSection = () => {
         method: 'POST',
         body: formData,
       });
+
       if (res.ok) {
         setSuccess(true);
         (e.target as HTMLFormElement).reset();
@@ -34,25 +35,25 @@ const ContactSection = () => {
   };
 
   return (
-    <section
-      id='contact'
-      className='section-padding bg-black relative overflow-hidden'
-    >
-      {/* Background image with overlay */}
+    <section id='contact' className='py-20 bg-black relative overflow-hidden'>
+      {/* Background */}
       <div className='absolute inset-0 bg-gradient-to-b from-[#080808] to-[#000000]'>
-        <div className='absolute inset-0 bg-[url("/space-bg.jpg")] bg-cover bg-center opacity-10'></div>
+        <div className="absolute inset-0 bg-[url('/space-bg.jpg')] bg-cover bg-center opacity-10"></div>
         <div className='absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/40'></div>
       </div>
 
-      <div className='relative z-10 max-w-7xl mx-auto '>
+      <div className='relative z-10 max-w-7xl mx-auto px-6'>
+        {/* Heading */}
         <ScrollReveal>
-          <p className='text-xs tracking-[0.3em] uppercase text-muted-foreground mb-4 font-body'></p>
-          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
-            Contact Us
-          </h2>
+          <div className='max-w-2xl'>
+            <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-foreground mb-16'>
+              Contact Us
+            </h2>
+          </div>
         </ScrollReveal>
 
-        <div className='grid lg:grid-cols-2 gap-16'>
+        <div className='grid lg:grid-cols-2 gap-20'>
+          {/* Contact Form */}
           <ScrollReveal delay={0.1}>
             {success ? (
               <div className='flex items-center justify-center h-full'>
@@ -66,12 +67,13 @@ const ContactSection = () => {
                 </div>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className='space-y-5'>
+              <form onSubmit={handleSubmit} className='space-y-5 max-w-2xl'>
                 <input
                   type='hidden'
                   name='to'
                   value='talent@altitudetalent.com.lk'
                 />
+
                 <input type='checkbox' name='botcheck' className='hidden' />
 
                 <div>
@@ -132,106 +134,77 @@ const ContactSection = () => {
             )}
           </ScrollReveal>
 
+          {/* Contact Info */}
           <ScrollReveal delay={0.2}>
-            <div className='space-y-8 '>
+            <div className='space-y-8'>
+              {/* Talent */}
               <div className='mt-9'>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
                   ALTITUDE TALENT
                 </h3>
-                <div className='space-y-6'>
-                  <a
-                    href='mailto:talent@altitudetalent.com.lk'
-                    className='flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body'
-                  >
-                    <Mail size={18} strokeWidth={1.5} />
-                    talent@altitudetalent.com.lk
-                  </a>
-                </div>
-              </div>
 
-              <div>
-                <div className='space-x-6'>
+                <a
+                  href='mailto:talent@altitudetalent.com.lk'
+                  className='flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body'
+                >
+                  <Mail size={18} strokeWidth={1.5} />
+                  talent@altitudetalent.com.lk
+                </a>
+
+                <div className='space-x-6 mt-6'>
                   <a
                     href='https://www.linkedin.com/company/altitudetalent'
-                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                    className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
-                    <Linkedin size={18} strokeWidth={1.5} />
+                    <Linkedin size={18} />
                   </a>
+
                   <a
                     href='https://www.instagram.com/altitude_talent/'
-                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                    className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
-                    <Instagram size={18} strokeWidth={1.5} />
+                    <Instagram size={18} />
                   </a>
+
                   <a
                     href='https://web.facebook.com/recruiteraltitudetalent'
-                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                    className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
-                    <Facebook size={18} strokeWidth={1.5} />
+                    <Facebook size={18} />
                   </a>
                 </div>
               </div>
 
+              {/* Wellness */}
               <div>
                 <h3 className='font-body text-xl tracking-wide text-foreground mb-4'>
                   ALTITUDE WELLNESS
                 </h3>
-                <div className='space-y-8 mb-7'>
-                  <a
-                    href='mailto:wellness@altitudetalent.com.lk'
-                    className='flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body'
-                  >
-                    <Mail size={18} strokeWidth={1.5} />
-                    wellness@altitudetalent.com.lk
-                  </a>
-                </div>
-                <div className='space-x-6'>
+
+                <a
+                  href='mailto:wellness@altitudetalent.com.lk'
+                  className='flex items-center gap-3 text-muted-foreground hover:text-foreground transition-colors font-body'
+                >
+                  <Mail size={18} strokeWidth={1.5} />
+                  wellness@altitudetalent.com.lk
+                </a>
+
+                <div className='space-x-6 mt-6'>
                   <a
                     href='https://www.linkedin.com/company/altitude-wellness-srilanka/'
-                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                    className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
-                    <Linkedin size={18} strokeWidth={1.5} />
+                    <Linkedin size={18} />
                   </a>
+
                   <a
                     href='https://www.instagram.com/altitudewellness_sl/'
-                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
+                    className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
-                    <Instagram size={18} strokeWidth={1.5} />
+                    <Instagram size={18} />
                   </a>
-                  {/* <a
-                    href='https://web.facebook.com/recruiteraltitudetalent'
-                    className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors font-body'
-                  >
-                    <Facebook size={18} strokeWidth={1.5} />
-                  </a> */}
                 </div>
               </div>
-
-              {/* <div className='border-t border-border pt-8'>
-                <h3 className='font-display text-xl tracking-wide text-foreground mb-4'>
-                  Our Reach
-                </h3>
-                <div className='grid grid-cols-3 gap-6'>
-                  <div>
-                    <p className='font-display text-3xl text-foreground'>6+</p>
-                    <p className='text-xs text-muted-foreground font-body mt-1'>
-                      Industries Served
-                    </p>
-                  </div>
-                  <div>
-                    <p className='font-display text-3xl text-foreground'>50+</p>
-                    <p className='text-xs text-muted-foreground font-body mt-1'>
-                      Clients Placed
-                    </p>
-                  </div>
-                  <div>
-                    <p className='font-display text-3xl text-foreground'>10+</p>
-                    <p className='text-xs text-muted-foreground font-body mt-1'>
-                      Countries Covered
-                    </p>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </ScrollReveal>
         </div>

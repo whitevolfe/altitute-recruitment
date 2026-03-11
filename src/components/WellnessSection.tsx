@@ -35,42 +35,48 @@ const packages = [
 
 const WellnessSection = () => {
   return (
-    <section id='wellness' className='section-padding'>
+    <section id='wellness' className='py-20'>
       <div className='max-w-7xl mx-auto px-6'>
+        {/* Heading */}
         <ScrollReveal>
-          <p className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-6'>
+          <h2 className='text-4xl md:text-6xl font-body font-medium tracking-[0.2em] uppercase text-black mb-8'>
             Altitude Wellness
-          </p>
+          </h2>
         </ScrollReveal>
 
-        <div className='max-w-8xl  ml-1'>
-          <h2 className='text-xs tracking-[0.3em] uppercase text-black mb-4 font-body'>
+        {/* Text Content */}
+        <div className='max-w-7xl space-y-6'>
+          <h3 className='text-xs tracking-[0.3em] uppercase text-black font-body'>
             Corporate Wellbeing
-          </h2>
+          </h3>
+
           <ScrollReveal delay={0.1}>
-            <p className='text-black font-body font-light text-lg leading-relaxed mb-3 '>
+            <p className='text-black font-body font-light text-lg leading-relaxed'>
               We believe high performance starts with wellbeing. Our wellness
               division delivers tailored programmes that support employee
               health, reduce burnout, and create thriving workplace cultures.
             </p>
           </ScrollReveal>
+
           <ScrollReveal delay={0.15}>
-            <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
+            <p className='text-black font-body font-light text-lg leading-relaxed'>
               Through years of engagement with both candidates and corporate
               leaders, a consistent theme emerged: performance expectations were
               rising, yet structured and impactful wellbeing strategies were
               largely absent.
             </p>
           </ScrollReveal>
-          <ScrollReveal delay={0.1}>
-            <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
+
+          <ScrollReveal delay={0.2}>
+            <p className='text-black font-body font-light text-lg leading-relaxed'>
               In response, Altitude Wellness was formed as a premier corporate
               wellness platform built on a high impact proprietary Three Pillar
               Methodology.
             </p>
           </ScrollReveal>
-          <ScrollReveal delay={0.15}>
-            <p className='text-black font-body font-light text-lg leading-relaxed mb-3'>
+
+          <ScrollReveal delay={0.25}>
+            <p className='text-black font-body font-light text-lg leading-relaxed'>
               The program integrates psychology, practical wellness and
               leadership insight frameworks to help organizations build
               resilient, high-performing teams. Its approach is structured,
@@ -79,21 +85,23 @@ const WellnessSection = () => {
           </ScrollReveal>
         </div>
 
-        <br />
-
-        <div id='wellness-package' className='grid md:grid-cols-2 gap-8'>
+        {/* Packages */}
+        <div id='wellness-package' className='grid md:grid-cols-2 gap-8 mt-16'>
           {packages.map((pkg, i) => (
-            <ScrollReveal key={pkg.name} delay={0.15 + i * 0.1}>
+            <ScrollReveal key={pkg.name} delay={0.3 + i * 0.1}>
               <div className='border border-border p-8 md:p-10 flex flex-col h-full hover:border-foreground/20 transition-colors duration-500'>
-                <h3 className='font-body font-bold text-2xl tracking-wide text-black px-4 py-2 mb-3 -ml-4'>
+                <h3 className='font-body font-bold text-2xl tracking-wide text-black mb-3'>
                   {pkg.name}
                 </h3>
+
                 <p className='text-xs tracking-[0.2em] uppercase text-black mb-3 font-body italic'>
                   {pkg.subtitle}
                 </p>
+
                 <p className='text-black font-body font-light mb-6'>
                   {pkg.desc}
                 </p>
+
                 <ul className='space-y-3 mb-6 flex-1'>
                   {pkg.features.map((f) => (
                     <li
@@ -105,9 +113,11 @@ const WellnessSection = () => {
                     </li>
                   ))}
                 </ul>
+
                 <p className='text-black font-body font-light text-sm mb-8'>
                   {pkg.closingText}
                 </p>
+
                 <Button size='lg' className='border-border text-black' asChild>
                   <a href={pkg.route}>Explore Package</a>
                 </Button>
