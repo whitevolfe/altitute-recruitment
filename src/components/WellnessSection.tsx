@@ -16,21 +16,6 @@ const packages = [
       'By addressing performance from clinical, biological, and strategic dimensions within one condensed engagement, organizations receive a turnkey solution to protect their most valuable asset — their people.',
     route: '/packages/altitude-trinity',
   },
-  {
-    name: 'Movement Therapy by Rangi Fernando',
-    subtitle: 'Resilience through Movement',
-    desc: 'A guided corporate wellness experience designed to restore, regulate, and strengthen through intentional movement.',
-    features: [
-      'A Quick Boost',
-      'Self-Discovery & Awareness',
-      'Practical Resilience Tools',
-      'Team Cohesion',
-      'Stress Relief & Emotional Release',
-    ],
-    closingText:
-      'Sustained performance is not built on pressure alone, but on a body and mind that are regularly restored.',
-    route: '/packages/movement-therapy',
-  },
 ];
 
 const WellnessSection = () => {
