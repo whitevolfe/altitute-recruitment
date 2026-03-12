@@ -91,6 +91,8 @@ const LeadershipSection = () => {
                 )}
                 <a
                   href={founder.linkedinUrl}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors'
                 >
                   <Linkedin size={18} />

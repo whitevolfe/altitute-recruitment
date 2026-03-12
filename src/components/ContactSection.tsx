@@ -154,6 +154,8 @@ const ContactSection = () => {
                 <div className='space-x-6 mt-6'>
                   <a
                     href='https://www.linkedin.com/company/altitudetalent'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
                     <Linkedin size={18} />
@@ -161,6 +163,8 @@ const ContactSection = () => {
 
                   <a
                     href='https://www.instagram.com/altitude_talent/'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
                     <Instagram size={18} />
@@ -192,6 +196,8 @@ const ContactSection = () => {
                 <div className='space-x-6 mt-6'>
                   <a
                     href='https://www.linkedin.com/company/altitude-wellness-srilanka/'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
                     <Linkedin size={18} />
@@ -199,6 +205,8 @@ const ContactSection = () => {
 
                   <a
                     href='https://www.instagram.com/altitudewellness_sl/'
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='inline-flex items-center text-muted-foreground hover:text-foreground'
                   >
                     <Instagram size={18} />
