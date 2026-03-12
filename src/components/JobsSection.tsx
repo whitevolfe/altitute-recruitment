@@ -158,7 +158,9 @@ const JobsSection = () => {
 
         <div className='mt-10 flex items-center justify-center'>
           <Button variant='hero' size='lg'>
-            Hire With Us
+            <a href='mailto:talent@altitudetalent.com.lk?subject=Job Application'>
+              Hire With Us
+            </a>
           </Button>
         </div>
       </div>
