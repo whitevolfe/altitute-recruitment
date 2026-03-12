@@ -26,7 +26,7 @@ const AltitudeGroupSection = () => {
             Altitude Group is a Human Capital and Corporate Performance Advisory
             firm founded by Charitha Malalasekera and Natlie Jackson, each
             bringing over 12 years of corporate leadership experience within
-            structured, high-performance environments
+            structured, high-performance environments.
           </p>
         </ScrollReveal>
         <br />
