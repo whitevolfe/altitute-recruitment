@@ -218,8 +218,8 @@ const TestimonialsSection = () => {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className='left-2 text-white border-white/30 hover:bg-white/10 hover:text-white' />
-            <CarouselNext className='right-2 text-white border-white/30 hover:bg-white/10 hover:text-white' />
+            <CarouselPrevious className='absolute left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 text-white w-6 h-6 border border-white/30 hover:bg-white/10 hover:text-white rounded-full' />
+            <CarouselNext className='absolute right-0 translate-x-1/2 top-1/2 -translate-y-1/2 text-white w-6 h-6 border border-white/30 hover:bg-white/10 hover:text-white rounded-full' />
           </Carousel>
         </ScrollReveal>
       </div>
