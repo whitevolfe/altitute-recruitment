@@ -16,8 +16,7 @@ export const jobs: Job[] = [
     location: 'Colombo',
     workModel: 'Onsite',
     salaryCurrency: 'USD',
-    description:
-      'Join a leading fintech company as a Senior Software Engineer, building scalable platforms that power millions of transactions daily.',
+    description: '',
     responsibilities: [
       'Lead the React / React Native engineering team and shape the frontend architecture across apps and shared packages in our TurboRepo.',
       'Review, refactor, and enforce high code quality, consistency standards and proper state and hydration management.',
@@ -43,8 +42,7 @@ export const jobs: Job[] = [
     location: 'Colombo',
     workModel: 'On-site',
     salaryCurrency: 'USD',
-    description:
-      'Lead the marketing function for a high-growth SaaS company, driving brand awareness, demand generation, and revenue growth.',
+    description: '',
     responsibilities: [
       'Build and maintain backend services in Python (Django + DRF) and Rust (Actix, Tokio, Pingora).',
       'Implement and optimize APIs, async job queues, and data pipelines for IoT telemetry, ML inference, and analytics ingestion.',
@@ -70,8 +68,7 @@ export const jobs: Job[] = [
     location: '',
     workModel: 'Hybrid',
     salaryCurrency: 'USD',
-    description:
-      'Shape the creative vision for a global advertising agency, leading campaigns for premium brands across multiple markets.',
+    description: '',
     responsibilities: [
       'Build and maintain components from design to production.',
       ' Help drive squad priorities and progress; escalate blockers.',
@@ -93,8 +90,7 @@ export const jobs: Job[] = [
     location: 'Rajagiriya',
     workModel: 'On-site',
     salaryCurrency: 'LKR',
-    description:
-      'Serve as CFO for an expanding private equity-backed company, overseeing all financial operations and strategic planning.',
+    description: '',
     responsibilities: [
       'Corporate agreements & negotiations.',
       'Conveyancing & property law.',
