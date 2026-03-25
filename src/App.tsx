@@ -13,6 +13,7 @@ import Talent from './pages/Talent';
 import Contact from './pages/Contact';
 import AltitudeTrinityPage from './pages/AltitudeTrinityPage';
 import MovementTherapyPage from './pages/MovementTherapyPage';
+import Blogs from './pages/Blogs';
 import NotFound from './pages/NotFound';
 import RecruitmentChatbot from './components/RecruitmentChatbot';
 import ScrollToTop from './components/ScrollToTop';
@@ -43,6 +44,7 @@ const App = () => (
           />
           <Route path='/talent' element={<Talent />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/blogs' element={<Blogs />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path='*' element={<NotFound />} />
         </Routes>

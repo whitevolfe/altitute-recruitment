@@ -1,4 +1,5 @@
 import { Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -12,6 +13,14 @@ const Footer = () => {
             © {new Date().getFullYear()} Altitude Group. All rights reserved.
           </p>
         </div>
+        <nav className='flex gap-6'>
+          <Link
+            to='/blogs'
+            className='text-white/80 hover:text-white transition-colors text-sm font-medium'
+          >
+            Blog
+          </Link>
+        </nav>
       </div>
     </footer>
   );
