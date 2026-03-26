@@ -69,10 +69,31 @@ const JobsSection = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.1}>
-          <div className='max-w-7xl space-y-6'>
-            <p className='text-white/80 font-body font-light text-lg leading-relaxed'>
+          <div className='max-w-6xl ml-1 space-y-4'>
+            <p className='text-white/80 font-body font-light text-lg text-lg leading-relaxed'>
               The Group's first initiative, Altitude Talent, was launched as a
-              strategic executive search firm.
+              strategic executive search and talent advisory firm dedicated to
+              supporting organizations in Sri Lanka in securing high-impact
+              professionals.
+            </p>
+
+            <p className='text-white/80 font-body font-light text-lg text-lg leading-relaxed'>
+              The firm has successfully placed talent across:
+            </p>
+
+            <ul className='list-disc list-inside space-y-2 text-white/80 font-body font-light text-lg '>
+              <li>Software Engineering</li>
+              <li>Finance</li>
+              <li>Legal</li>
+              <li>Marketing</li>
+              <li>Executive Leadership</li>
+            </ul>
+
+            <p className='text-white/80 font-body font-light text-lg leading-relaxed'>
+              Altitude Talent goes beyond transactional recruitment. It partners
+              closely with organizations to understand their culture, long-term
+              objectives, and growth trajectory, ensuring that every placement
+              is strategically aligned with business vision.
             </p>
           </div>
         </ScrollReveal>
